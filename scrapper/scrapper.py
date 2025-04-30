@@ -2,15 +2,18 @@
 
 import os
 import argparse
-from utils import cargar_json, crear_lista_titulos, guardar_json
+from utils import cargar_json, crear_lista_titulos, guardar_json, verificar_dir_json
 from url_list import crear_lista_url
 from get_data import extraer_informacion
 
 def main(dir_json:str, json_entrada:str, json_salida:str):
     ''' Función principal del scrapper de scimagojr.com '''
-    
+
     ruta_entrada = os.path.join(dir_json, json_entrada)
     ruta_salida = os.path.join(dir_json, json_salida)
+
+    if not verificar_dir_json(ruta_salida):
+        return
 
     revistas_json = cargar_json(ruta_entrada)
     lista_titulos = crear_lista_titulos(revistas_json)

@@ -1,3 +1,4 @@
+import os
 import json
 import requests
 
@@ -21,3 +22,16 @@ def scrap(url: str) -> requests.Response:
 def guardar_json(data: dict, archivo_salida: str):
     with open(archivo_salida, 'w', encoding='utf8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+def verificar_dir_json(dir_json:str) -> bool:
+    ''' Función para verificar si ya exite un archivo en la ruta '''
+    if os.path.exists(dir_json):
+        respuesta = input(f"\nEl archivo en '{dir_json}' ya existe. ¿Deseas eliminarlo? (s/n): ").strip().lower()
+        if respuesta == 's':
+            os.remove(dir_json)
+            print(f"\nArchivo en '{dir_json}' ha sido eliminado.")
+            return True
+        else:
+            print("\nPrograma finalizado.\n")
+            return False
+    return True
