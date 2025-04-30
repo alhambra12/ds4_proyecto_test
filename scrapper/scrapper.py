@@ -3,6 +3,7 @@
 import os
 import argparse
 from utils import cargar_json, crear_lista_titulos
+from url_list import crear_lista_url
 
 def main(dir_json:str, json_entrada:str, json_salida:str):
     ''' Función principal del scrapper de scimagojr.com '''
@@ -12,6 +13,7 @@ def main(dir_json:str, json_entrada:str, json_salida:str):
 
     revistas_json = cargar_json(ruta_entrada)
     lista_titulos = crear_lista_titulos(revistas_json)
+    lista_url = crear_lista_url(lista_titulos)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Scrapper para scimagojr.com')
