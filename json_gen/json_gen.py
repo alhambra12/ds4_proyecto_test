@@ -1,10 +1,39 @@
 ''' Programa generador de JSON '''
 
 import os
+import csv
 import argparse
+    
+def obtener_titulos(archivo: str) -> list:
+    ''' Función para obtener los títulos de las revistas '''
+    titulos = []
+    with open(archivo, newline='', encoding='utf-8') as f:
+        lector = csv.DictReader(f)
+        for fila in lector:
+            titulo = fila["TITULO:"].strip()
+            if titulo.startswith('"') and titulo.endswith('"'):
+                titulo = titulo[1:-1]
+            titulos.append(titulo)
+    return titulos
+
+def crear_dic_carpeta(dir: str) -> dict:
+    ''' Funcion para crear diccionario con el titulo como key y el nombre de carpeta en una lista como value '''
+    dic = {}
+    for archivo in os.listdir(dir):
+        valor = archivo.split()[0]
+        titulos = obtener_titulos(os.path.join(dir, archivo))
+        for titulo in titulos:
+            if titulo not in dic:
+                dic[titulo] = []
+            if valor not in dic[titulo]:
+                dic[titulo].append(valor)
+    return dic
+
 
 def main(dir_csv:str, dir_json:str, archivo_json:str):
     ''' Función Principal '''
+    dir_areas = os.path.join(dir_csv, 'areas')
+    dic_areas = crear_dic_carpeta(dir_areas)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Scrapper para Scimagojr')
