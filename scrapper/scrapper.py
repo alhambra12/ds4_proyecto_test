@@ -2,8 +2,9 @@
 
 import os
 import argparse
-from utils import cargar_json, crear_lista_titulos
+from utils import cargar_json, crear_lista_titulos, guardar_json
 from url_list import crear_lista_url
+from get_data import extraer_informacion
 
 def main(dir_json:str, json_entrada:str, json_salida:str):
     ''' Función principal del scrapper de scimagojr.com '''
@@ -15,6 +16,13 @@ def main(dir_json:str, json_entrada:str, json_salida:str):
     lista_titulos = crear_lista_titulos(revistas_json)
     lista_url = crear_lista_url(lista_titulos)
 
+    datos_revistas = extraer_informacion(lista_url)
+    guardar_json(datos_revistas, ruta_salida)
+    print(f"\nDatos guardados en {ruta_salida}")
+    
+    print("\nPrograma finalizado.\n")
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Scrapper para scimagojr.com')
     parser.add_argument('--dir_json', type=str, help='Directorio de JSONs')
@@ -25,7 +33,7 @@ if __name__ == '__main__':
     json_entrada = args.json_entrada
     json_salida = args.json_salida
     if not dir_json:
-        archivo_entrada = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos', 'json')
+        dir_json = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos', 'json')
     if not json_entrada:
         json_entrada = 'revistas.json'
     if not json_salida:

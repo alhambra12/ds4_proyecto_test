@@ -17,7 +17,7 @@ def obtener_lista_resultado(pagina_busqueda: requests.Response) -> list | None:
     return resultado if resultado else None
 
 def seleccionar_resultado(nombre_revista: str, resultado: list) -> str | None:
-    ratio = 0.7
+    ratio = 0.9
     nombre_revista = nombre_revista.lower()
     mejor = max(resultado, key=lambda x: Levenshtein.ratio(nombre_revista, x[1].lower()))
     similitud = Levenshtein.ratio(nombre_revista, mejor[1].lower())

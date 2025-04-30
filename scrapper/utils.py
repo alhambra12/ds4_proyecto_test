@@ -17,3 +17,7 @@ def scrap(url: str) -> requests.Response:
     if pagina.status_code != 200:
         raise Exception(f'Error {pagina.status_code} en {url}')
     return pagina
+
+def guardar_json(data: dict, archivo_salida: str):
+    with open(archivo_salida, 'w', encoding='utf8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
