@@ -87,7 +87,7 @@ def main(dir_csv:str, dir_json:str, archivo_json:str):
     print("\nPrograma finalizado.\n")
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Scrapper para Scimagojr')
+    parser = argparse.ArgumentParser(description='Generador JSON de revistas')
     parser.add_argument('--dir_csv', type=str, help='Directorio de csv')
     parser.add_argument('--dir_json', type=str, help='Directorio de json')
     parser.add_argument('--archivo_json', type=str, help='Nombre del archivo json')
