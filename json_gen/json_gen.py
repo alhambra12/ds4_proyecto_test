@@ -29,11 +29,32 @@ def crear_dic_carpeta(dir: str) -> dict:
                 dic[titulo].append(valor)
     return dic
 
+def crear_dic_revistas(dic_areas: dict, dic_catalogos: dict) -> dict:
+    ''' Función para crear diccionario de revistas con areas y catalogos '''
+    revistas = {}
+    for titulo, lista in dic_areas.items():
+        if titulo not in revistas:
+            revistas[titulo] = {"areas": [], "catalogos": []}
+        revistas[titulo]["areas"] = lista
+    for titulo, lista in dic_catalogos.items():
+        if titulo not in revistas:
+            revistas[titulo] = {"areas": [], "catalogos": []}
+        revistas[titulo]["catalogos"] = lista
+    return revistas
 
 def main(dir_csv:str, dir_json:str, archivo_json:str):
     ''' Función Principal '''
+    # crea rutas
     dir_areas = os.path.join(dir_csv, 'areas')
+    dir_catalogos = os.path.join(dir_csv, 'catalogos')
+    dir_json =  os.path.join(dir_json, archivo_json)
+    # crea diccionarios de area y catalogos
     dic_areas = crear_dic_carpeta(dir_areas)
+    dic_catalogos = crear_dic_carpeta(dir_catalogos)
+    # crea diccionario de revistas
+    dic_revista = crear_dic_revistas(dic_areas, dic_catalogos)
+    # exporta a json
+    
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Scrapper para Scimagojr')
