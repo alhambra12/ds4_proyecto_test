@@ -46,24 +46,45 @@ def crear_dic_revistas(dic_areas: dict, dic_catalogos: dict) -> dict:
     
     return revistas
 
-
 def guardar_json(dic_revista:dict, dir_json: str):
     with open(dir_json, "w", encoding="utf-8") as f:
         json.dump(dic_revista, f, ensure_ascii=False, indent=2)
 
+def verificar_dir_json(dir_json:str) -> bool:
+    ''' Función para verificar si ya exite un archivo en la ruta '''
+    if os.path.exists(dir_json):
+        respuesta = input(f"\nEl archivo en '{dir_json}' ya existe. ¿Deseas eliminarlo? (s/n): ").strip().lower()
+        if respuesta == 's':
+            os.remove(dir_json)
+            print(f"\nArchivo en '{dir_json}' ha sido eliminado.")
+            return True
+        else:
+            print("\nPrograma finalizado.\n")
+            return False
+    return True
+
 def main(dir_csv:str, dir_json:str, archivo_json:str):
     ''' Función Principal '''
+
     # crea rutas
     dir_areas = os.path.join(dir_csv, 'areas')
     dir_catalogos = os.path.join(dir_csv, 'catalogos')
     dir_json =  os.path.join(dir_json, archivo_json)
+
+    if not verificar_dir_json(dir_json):
+        return
+
     # crea diccionarios de area y catalogos
     dic_areas = crear_dic_carpeta(dir_areas)
     dic_catalogos = crear_dic_carpeta(dir_catalogos)
+
     # crea diccionario de revistas
     dic_revista = crear_dic_revistas(dic_areas, dic_catalogos)
     # exporta a json
     guardar_json(dic_revista, dir_json)
+    print(f"\nArchivo JSON guardado en '{dir_json}'")
+
+    print("\nPrograma finalizado.\n")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Scrapper para Scimagojr')
