@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from utils import scrap
 
-def extraer_sitio_web(soup):
+def extraer_website(soup):
     enlace = soup.find('a', id='question_journal')
     return enlace['href'].strip() if enlace else None
 
@@ -12,7 +12,7 @@ def extraer_h_index(soup):
         return h_index.text.strip() if h_index else None
     return None
 
-def extraer_area_categoria(soup):
+def extraer_area_category(soup):
     area_header = soup.find('h2', string='Subject Area and Category')
     if not area_header:
         return None
@@ -59,7 +59,8 @@ def crear_widget(nombre_revista):
     return f'<iframe src="https://www.scimagojr.com/journalsearch.php?q={nombre_revista.replace(" ", "+")}" width="100%" height="600px" frameborder="0"></iframe>'
 
 
-def extraer_informacion(lista_url: list) -> dict:
+def extraer_datos(lista_url: list) -> dict:
+    ''' Función para obtener los datos de la revista '''
     print('\nExtrayendo datos de las revistas:\n')
     datos = {}
     for nombre_revista, url in lista_url:
@@ -67,9 +68,9 @@ def extraer_informacion(lista_url: list) -> dict:
             pagina = scrap(url)
             soup = BeautifulSoup(pagina.text, 'html.parser')
 
-            sitio_web = extraer_sitio_web(soup)
+            sitio_web = extraer_website(soup)
             h_index = extraer_h_index(soup)
-            area_categoria = extraer_area_categoria(soup)
+            area_categoria = extraer_area_category(soup)
             publisher = extraer_publisher(soup)
             issn = extraer_issn(soup)
             publication_type = extraer_publication_type(soup)

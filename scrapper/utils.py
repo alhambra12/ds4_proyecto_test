@@ -7,19 +7,23 @@ headers = {
 }
 
 def cargar_json(nombre_archivo: str) -> dict:
+    ''' Función para cargar el json de revistas '''
     with open(nombre_archivo, 'r', encoding='utf8') as f:
         return json.load(f)
     
 def crear_lista_titulos(revistas_json) -> list:
+    ''' Función para tomar las keys (titulos) y crear una lista '''
     return list(revistas_json.keys())
 
 def scrap(url: str) -> requests.Response:
+    ''' Función para obtener una pagina desde internet '''
     pagina = requests.get(url, headers=headers, timeout=15)
     if pagina.status_code != 200:
         raise Exception(f'Error {pagina.status_code} en {url}')
     return pagina
 
 def guardar_json(data: dict, archivo_salida: str):
+    ''' Función para guardar en un archivo json '''
     with open(archivo_salida, 'w', encoding='utf8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 

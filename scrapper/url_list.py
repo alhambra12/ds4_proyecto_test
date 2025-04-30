@@ -4,9 +4,11 @@ from utils import scrap
 from bs4 import BeautifulSoup
 
 def crear_url_busqueda(nombre_revista: str) -> str:
+    ''' Función para crear la url de busqueda '''
     return f"https://www.scimagojr.com/journalsearch.php?q={nombre_revista.replace(' ', '+')}"
 
 def obtener_lista_resultado(pagina_busqueda: requests.Response) -> list | None:
+    ''' Función para obtener los resultados de la busqueda '''
     soup = BeautifulSoup(pagina_busqueda.text, 'html.parser')
     resultado = []
     for enlace in soup.select('a[href^="journalsearch.php?q="]'):
@@ -17,6 +19,7 @@ def obtener_lista_resultado(pagina_busqueda: requests.Response) -> list | None:
     return resultado if resultado else None
 
 def seleccionar_resultado(nombre_revista: str, resultado: list) -> str | None:
+    ''' Función para seleccionar el resultado mas parecido a la busqueda realizada '''
     ratio = 0.9
     nombre_revista = nombre_revista.lower()
     mejor = max(resultado, key=lambda x: Levenshtein.ratio(nombre_revista, x[1].lower()))
@@ -28,6 +31,7 @@ def seleccionar_resultado(nombre_revista: str, resultado: list) -> str | None:
     return mejor[0]
 
 def encontrar_url_revista(nombre_revista: str) -> str | None:
+    ''' Función para encontrar la url de una revista en el sitio simagojr.com '''
     url_busqueda = crear_url_busqueda(nombre_revista)
     try:
         pagina_busqueda = scrap(url_busqueda)
@@ -44,6 +48,7 @@ def encontrar_url_revista(nombre_revista: str) -> str | None:
     return "https://www.scimagojr.com/" + url_relativa
 
 def crear_lista_url(lista_revistas: list) -> list:
+    ''' Función para crar lista de tuplas de las url '''
     print('\nObteniendo URLs de las revistas:\n')
     lista_url = []
     for revista in lista_revistas:
