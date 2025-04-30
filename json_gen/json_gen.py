@@ -2,6 +2,7 @@
 
 import os
 import csv
+import json
 import argparse
     
 def obtener_titulos(archivo: str) -> list:
@@ -20,7 +21,7 @@ def crear_dic_carpeta(dir: str) -> dict:
     ''' Funcion para crear diccionario con el titulo como key y el nombre de carpeta en una lista como value '''
     dic = {}
     for archivo in os.listdir(dir):
-        valor = archivo.split()[0]
+        valor = os.path.splitext(archivo)[0]
         titulos = obtener_titulos(os.path.join(dir, archivo))
         for titulo in titulos:
             if titulo not in dic:
@@ -30,17 +31,25 @@ def crear_dic_carpeta(dir: str) -> dict:
     return dic
 
 def crear_dic_revistas(dic_areas: dict, dic_catalogos: dict) -> dict:
-    ''' Función para crear diccionario de revistas con areas y catalogos '''
+    ''' Función para crear diccionario de revistas con áreas y catálogos '''
     revistas = {}
+    
     for titulo, lista in dic_areas.items():
         if titulo not in revistas:
             revistas[titulo] = {"areas": [], "catalogos": []}
-        revistas[titulo]["areas"] = lista
+        revistas[titulo]["areas"] = list(set(revistas[titulo]["areas"] + lista))
+    
     for titulo, lista in dic_catalogos.items():
         if titulo not in revistas:
             revistas[titulo] = {"areas": [], "catalogos": []}
-        revistas[titulo]["catalogos"] = lista
+        revistas[titulo]["catalogos"] = list(set(revistas[titulo]["catalogos"] + lista))
+    
     return revistas
+
+
+def guardar_json(dic_revista:dict, dir_json: str):
+    with open(dir_json, "w", encoding="utf-8") as f:
+        json.dump(dic_revista, f, ensure_ascii=False, indent=2)
 
 def main(dir_csv:str, dir_json:str, archivo_json:str):
     ''' Función Principal '''
@@ -54,7 +63,7 @@ def main(dir_csv:str, dir_json:str, archivo_json:str):
     # crea diccionario de revistas
     dic_revista = crear_dic_revistas(dic_areas, dic_catalogos)
     # exporta a json
-    
+    guardar_json(dic_revista, dir_json)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Scrapper para Scimagojr')
