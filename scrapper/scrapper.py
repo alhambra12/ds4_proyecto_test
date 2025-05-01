@@ -15,7 +15,7 @@ class Scrapper:
     def scrap(self, url):
         page = requests.get(url, headers=Scrapper.headers, timeout=15)
         if page.status_code != 200:
-            raise Exception(f"Error: {page.status_code} en {url}")
+            raise Exception(f"X Error: {page.status_code} en {url}")
         return page
 
     def search_url(self):
@@ -40,10 +40,10 @@ class Scrapper:
         best = max(results, key=lambda x: Levenshtein.ratio(self.title.lower(), x['title'].lower()))
         ratio = Levenshtein.ratio(self.title.lower(), best['title'].lower())
         if ratio < 0.9:
-            print(f"! Similitud baja para '{self.title}' con '{best['title']}' ({ratio:.2f})")
+            # print(f"! Similitud baja para '{self.title}' con '{best['title']}' ({ratio:.2f})")
             print(f"X No se pudo encontrar URL para '{self.title}'")
             return None
-        print(f"! Similitud alta para '{self.title}' con '{best['title']}' ({ratio:.2f})")
+        # print(f"! Similitud alta para '{self.title}' con '{best['title']}' ({ratio:.2f})")
         self.url = "https://www.scimagojr.com/" + best['href']
         print(f"O URL encontrada para '{self.title}'")
         return self.url

@@ -19,8 +19,8 @@ def ejecutar_scrapper():
         sys.executable,
         os.path.join(ruta_base, 'scrapper', 'app.py'),
         '--dir_json', os.path.join(ruta_base, 'datos', 'json'),
-        '--json_entrada', 'revistas.json',
-        '--json_salida', 'salida.json'
+        '--input_path', 'revistas.json',
+        '--output_path', 'salida.json'
     ])
 
 def ejecutar_webapp():

@@ -6,8 +6,8 @@ from scrapper import Scrapper
 class Main:
     def __init__(self, dir_json, input, output):
         self.dir = dir_json
-        self.input_path = os.path.join(dir_json, input)
-        self.output_path = os.path.join(dir_json, output)
+        self.input_path = Utilities.fix_path(os.path.join(dir_json, input))
+        self.output_path = Utilities.fix_path(os.path.join(dir_json, output))
 
     def main(self):
         if not Utilities.check_path(self.output_path):
@@ -27,7 +27,8 @@ class Main:
                 else:
                     print(f"X No se pudieron extraer datos para '{title}'")
 
-        Utilities.load_json(data, self.output_path)
+        Utilities.save_json(data, self.output_path)
+
         print(f"\nDatos guardados en '{self.output_path}'")
         print("\nPrograma finalizado.\n")
 
@@ -40,8 +41,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     dir_json = args.dir_json or os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos', 'json')
-    input_path = args.input_path or 'revistas.json'
-    output_path = args.output_path or 'scrap.json'
+    input_path = args.input_path or 'revistas_test.json'
+    output_path = args.output_path or 'scrap_test.json'
 
     scraper = Main(dir_json, input_path, output_path)
     scraper.main()

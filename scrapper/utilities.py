@@ -16,7 +16,7 @@ class Utilities:
     @staticmethod
     def check_path(path):
         if os.path.exists(path):
-            response = input(f"\nEl archivo en '{path}' ya existe. ¿Desea eliminarlo? (s/n): ").strip().lower()
+            response = input(f"\nEl archivo en '{path}' ya existe. ¿Deseas eliminarlo? (s/n): ").strip().lower()
             if response == 's':
                 os.remove(path)
                 print(f"Archivo en '{path}' eliminado.")
@@ -25,3 +25,16 @@ class Utilities:
                 print("\nPrograma finalizado.\n")
                 return False
         return True
+
+    @staticmethod
+    def fix_path(path):
+        path = path.replace('\\', '/')
+        parts = path.split('/')
+        resolved = []
+        for part in parts:
+            if part == '..':
+                if resolved:
+                    resolved.pop()
+            elif part and part != '.':
+                resolved.append(part)
+        return '/'.join(resolved)
