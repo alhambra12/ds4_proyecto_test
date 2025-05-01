@@ -1,36 +1,33 @@
 import os
 import argparse
-from utilities import Utilities
+from functions import fix_path, check_path, load_json, save_json
 from scrapper import Scrapper
 
-class Main:
-    def __init__(self, dir_json, input, output):
-        self.dir = dir_json
-        self.input_path = Utilities.fix_path(os.path.join(dir_json, input))
-        self.output_path = Utilities.fix_path(os.path.join(dir_json, output))
+def main(dir_json:str, input:str, output:str):
+    input_path = fix_path(os.path.join(dir_json, input))
+    output_path = fix_path(os.path.join(dir_json, output))
 
-    def main(self):
-        if not Utilities.check_path(self.output_path):
-            return
+    if not check_path(output_path):
+        return
 
-        magazines = Utilities.load_json(self.input_path)
-        data = {}
+    magazines = load_json(input_path)
+    data = {}
 
-        print("\nProcesando revistas:")
-        for title in magazines:
-            print(f"\n- Procesando: {title}")
-            scrapper = Scrapper(title)
-            if scrapper.search_url():
-                info = scrapper.get_data()
-                if info:
-                    data[title] = info
-                else:
-                    print(f"X No se pudieron extraer datos para '{title}'")
+    print("\nProcesando revistas:")
+    for title in magazines:
+        print(f"\n- Procesando: {title}")
+        scrapper = Scrapper(title)
+        if scrapper.search_url():
+            info = scrapper.get_data()
+            if info:
+                data[title] = info
+            else:
+                print(f"X No se pudieron extraer datos para '{title}'")
 
-        Utilities.save_json(data, self.output_path)
+    save_json(data, output_path)
 
-        print(f"\nDatos guardados en '{self.output_path}'")
-        print("\nPrograma finalizado.\n")
+    print(f"\nDatos guardados en '{output_path}'")
+    print("\nPrograma finalizado.\n")
 
 
 if __name__ == '__main__':
@@ -39,10 +36,8 @@ if __name__ == '__main__':
     parser.add_argument('--input_path', type=str, help='Archivo de entrada')
     parser.add_argument('--output_path', type=str, help='Archivo de salida')
     args = parser.parse_args()
-
-    dir_json = args.dir_json or os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos', 'json')
+    dir_json = args.dir_json or fix_path(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos', 'json'))
     input_path = args.input_path or 'revistas_test.json'
     output_path = args.output_path or 'scrap_test.json'
 
-    scraper = Main(dir_json, input_path, output_path)
-    scraper.main()
+    main(dir_json, input_path, output_path)

@@ -5,56 +5,56 @@ import csv
 import json
 import argparse
     
-def obtener_titulos(archivo: str) -> list:
+def get_titles(file: str) -> list:
     ''' Función para obtener los títulos de las revistas '''
-    titulos = []
-    with open(archivo, newline='', encoding='utf-8') as f:
-        lector = csv.DictReader(f)
-        for fila in lector:
-            titulo = fila["TITULO:"].strip()
-            if titulo.startswith('"') and titulo.endswith('"'):
-                titulo = titulo[1:-1]
-            titulos.append(titulo)
-    return titulos
+    titles = []
+    with open(file, newline='', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            title = row["TITULO:"].strip()
+            if title.startswith('"') and title.endswith('"'):
+                title = title[1:-1]
+            titles.append(title)
+    return titles
 
-def crear_dic_carpeta(dir: str) -> dict:
+def create_folder_dic(dir: str) -> dict:
     ''' Funcion para crear diccionario con el titulo como key y el nombre de carpeta en una lista como value '''
     dic = {}
-    for archivo in os.listdir(dir):
-        valor = os.path.splitext(archivo)[0]
-        titulos = obtener_titulos(os.path.join(dir, archivo))
-        for titulo in titulos:
-            if titulo not in dic:
-                dic[titulo] = []
-            if valor not in dic[titulo]:
-                dic[titulo].append(valor)
+    for file in os.listdir(dir):
+        value = os.path.splitext(file)[0]
+        titles = get_titles(os.path.join(dir, file))
+        for title in titles:
+            if title not in dic:
+                dic[title] = []
+            if value not in dic[title]:
+                dic[title].append(value)
     return dic
 
-def crear_dic_revistas(dic_areas: dict, dic_catalogos: dict) -> dict:
+def create_magazine_dic(dic_areas: dict, dic_catalogos: dict) -> dict:
     ''' Función para crear diccionario de revistas con áreas y catálogos '''
-    revistas = {}
+    magazine = {}
     
-    for titulo, lista in dic_areas.items():
-        if titulo not in revistas:
-            revistas[titulo] = {"areas": [], "catalogos": []}
-        revistas[titulo]["areas"] = list(set(revistas[titulo]["areas"] + lista))
+    for title, area in dic_areas.items():
+        if title not in magazine:
+            magazine[title] = {"areas": [], "catalogos": []}
+        magazine[title]["areas"] = list(set(magazine[title]["areas"] + area))
     
-    for titulo, lista in dic_catalogos.items():
-        if titulo not in revistas:
-            revistas[titulo] = {"areas": [], "catalogos": []}
-        revistas[titulo]["catalogos"] = list(set(revistas[titulo]["catalogos"] + lista))
+    for title, catalogo in dic_catalogos.items():
+        if title not in magazine:
+            magazine[title] = {"areas": [], "catalogos": []}
+        magazine[title]["catalogos"] = list(set(magazine[title]["catalogos"] + catalogo))
     
-    return revistas
+    return magazine
 
-def guardar_json(dic_revista:dict, dir_json: str):
+def save_json(dic_revista:dict, dir_json: str):
     with open(dir_json, "w", encoding="utf-8") as f:
         json.dump(dic_revista, f, ensure_ascii=False, indent=2)
 
-def verificar_dir_json(dir_json:str) -> bool:
+def check_dir(dir_json:str) -> bool:
     ''' Función para verificar si ya exite un archivo en la ruta '''
     if os.path.exists(dir_json):
-        respuesta = input(f"\nEl archivo en '{dir_json}' ya existe. ¿Deseas eliminarlo? (s/n): ").strip().lower()
-        if respuesta == 's':
+        response = input(f"\nEl archivo en '{dir_json}' ya existe. ¿Deseas eliminarlo? (s/n): ").strip().lower()
+        if response == 's':
             os.remove(dir_json)
             print(f"\nArchivo en '{dir_json}' ha sido eliminado.")
             return True
@@ -62,24 +62,30 @@ def verificar_dir_json(dir_json:str) -> bool:
             return False
     return True
 
+def fix_path(path):
+    path = path.replace('\\', '/')
+    parts = path.split('/')
+    new_path = []
+    for part in parts:
+        if part == '..':
+            if new_path:
+                new_path.pop()
+        elif part and part != '.':
+            new_path.append(part)
+    return '/'.join(new_path)
+
 def main(dir_datos:str, archivo_json:str):
     ''' Función Principal '''
 
-    # crea rutas
-    dir_areas = os.path.join(dir_datos, 'csv','areas')
-    dir_catalogos = os.path.join(dir_datos, 'csv', 'catalogos')
-    dir_json =  os.path.join(dir_datos, 'json', archivo_json)
+    dir_areas = fix_path(os.path.join(dir_datos, 'csv','areas'))
+    dir_catalogos = fix_path(os.path.join(dir_datos, 'csv', 'catalogos'))
+    dir_json = fix_path(os.path.join(dir_datos, 'json', archivo_json))
 
-    if verificar_dir_json(dir_json):
-
-        # crea diccionarios de area y catalogos
-        dic_areas = crear_dic_carpeta(dir_areas)
-        dic_catalogos = crear_dic_carpeta(dir_catalogos)
-
-        # crea diccionario de revistas
-        dic_revista = crear_dic_revistas(dic_areas, dic_catalogos)
-        # exporta a json
-        guardar_json(dic_revista, dir_json)
+    if check_dir(dir_json):
+        dic_areas = create_folder_dic(dir_areas)
+        dic_catalogos = create_folder_dic(dir_catalogos)
+        dic_revista = create_magazine_dic(dic_areas, dic_catalogos)
+        save_json(dic_revista, dir_json)
         print(f"\nArchivo JSON guardado en '{dir_json}'")
 
     print("\nPrograma finalizado.\n")
@@ -87,12 +93,12 @@ def main(dir_datos:str, archivo_json:str):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generador JSON de revistas')
     parser.add_argument('--dir_datos', type=str, help='Directorio de datos')
-    parser.add_argument('--archivo_json', type=str, help='Nombre del archivo json generado')
+    parser.add_argument('--json_file', type=str, help='Nombre del archivo json generado')
     args = parser.parse_args()
     dir_datos = args.dir_datos
-    archivo_json = args.archivo_json
+    json_file = args.json_file
     if not dir_datos:
         dir_datos = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos')
-    if not archivo_json:
-        archivo_json = 'revistas.json'
-    main(dir_datos, archivo_json)
+    if not json_file:
+        json_file = 'revistas.json'
+    main(dir_datos, json_file)

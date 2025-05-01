@@ -40,10 +40,9 @@ class Scrapper:
         best = max(results, key=lambda x: Levenshtein.ratio(self.title.lower(), x['title'].lower()))
         ratio = Levenshtein.ratio(self.title.lower(), best['title'].lower())
         if ratio < 0.9:
-            # print(f"! Similitud baja para '{self.title}' con '{best['title']}' ({ratio:.2f})")
             print(f"X No se pudo encontrar URL para '{self.title}'")
             return None
-        # print(f"! Similitud alta para '{self.title}' con '{best['title']}' ({ratio:.2f})")
+
         self.url = "https://www.scimagojr.com/" + best['href']
         print(f"O URL encontrada para '{self.title}'")
         return self.url
@@ -80,19 +79,27 @@ class Scrapper:
                 sub_ul = ul.find('ul', class_='treecategory')
                 category = [a.text.strip() for a in sub_ul.find_all('a')] if sub_ul else []
                 area_category.append({'area': area.text.strip(), 'categorias': category})
-        return area_category
+        return area_category if area_category else None
 
     def get_publisher(self):
         return self.get_text('Publisher', 'a')
 
     def get_issn(self):
-        return self.get_text('ISSN', 'p')
+        text = self.get_text('ISSN', 'p')
+        if text:
+            return [issn.strip() for issn in text.split(',')] if text else None
+        return None
 
     def get_publication_type(self):
         return self.get_text('Publication type', 'p')
 
     def get_widget(self):
-        return f'<iframe src="https://www.scimagojr.com/journalsearch.php?q={self.title.replace(" ", "+")}" width="100%" height="600px" frameborder="0"></iframe>'
+        widget_div = self.soup.find('div', class_='widgetlegend')
+        if widget_div:
+            input_tag = widget_div.find('input', id='embed_code')
+            if input_tag and input_tag.has_attr('value'):
+                return input_tag['value']
+        return None
 
     def get_text(self, heading, tag_name, class_=None):
         h = self.soup.find('h2', string=heading)
@@ -119,7 +126,7 @@ class Scrapper:
                 'widget': self.get_widget()
             }
 
-            faltantes = [x for x, y in data.items() if y in (None, [], '')]
+            faltantes = [x for x, y in data.items() if y is None]
             if faltantes:
                 print(f"! Datos faltantes para '{self.title}': {', '.join(faltantes)}")
             else:
