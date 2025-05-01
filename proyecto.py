@@ -8,9 +8,8 @@ def ejecutar_json_gen():
     ''' Función para ejecutar el generador de json '''
     subprocess.run([
         sys.executable,
-        os.path.join(ruta_base, 'json_gen', 'json_gen.py'),
-        '--dir_csv', os.path.join(ruta_base, 'datos', 'csv'),
-        '--dir_json', os.path.join(ruta_base, 'datos', 'json'),
+        os.path.join(ruta_base, 'json_gen', 'app.py'),
+        '--dir_datos', os.path.join(ruta_base, 'datos'),
         '--archivo_json', 'revistas.json'
     ])
 
@@ -18,7 +17,7 @@ def ejecutar_scrapper():
     ''' Función para ejecutar el scrapper de scimagojr '''
     subprocess.run([
         sys.executable,
-        os.path.join(ruta_base, 'scrapper', 'scrapper.py'),
+        os.path.join(ruta_base, 'scrapper', 'app.py'),
         '--dir_json', os.path.join(ruta_base, 'datos', 'json'),
         '--json_entrada', 'revistas.json',
         '--json_salida', 'salida.json'
