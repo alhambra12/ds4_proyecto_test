@@ -1,6 +1,7 @@
+''' Clase Scrapper '''
+
+import Levenshtein, requests
 from bs4 import BeautifulSoup
-import Levenshtein
-import requests
 
 class Scrapper:
     headers = {
@@ -13,12 +14,14 @@ class Scrapper:
         self.soup = None
 
     def scrap(self, url):
+        ''' Función para obtener la pagina web desde internet '''
         page = requests.get(url, headers=Scrapper.headers, timeout=15)
         if page.status_code != 200:
             raise Exception(f"X Error: {page.status_code} en {url}")
         return page
 
     def search_url(self):
+        ''' Función que busca revista en scimagojr y devuelve el url de la opción mas parecida '''
         search_url = f"https://www.scimagojr.com/journalsearch.php?q={self.title.replace(' ', '+')}"
         try:
             page = self.scrap(search_url)
@@ -48,6 +51,7 @@ class Scrapper:
         return self.url
 
     def load_html(self):
+        ''' Función que carga el html '''
         if not self.url:
             return False
         try:
@@ -59,13 +63,16 @@ class Scrapper:
             return False
 
     def get_website(self):
+        ''' Función que obtiene el sitio web de la revista '''
         tag = self.soup.find('a', id='question_journal')
         return tag['href'].strip() if tag else None
 
     def get_h_index(self):
+        ''' Función que obtiner el h-index '''
         return self.get_text('H-Index', 'p', 'hindexnumber')
 
     def get_area_category(self):
+        ''' Función que obtiene el area y categorias '''
         h2 = self.soup.find('h2', string='Subject Area and Category')
         if not h2:
             return None
@@ -82,18 +89,22 @@ class Scrapper:
         return area_category if area_category else None
 
     def get_publisher(self):
+        ''' Función que obtiene la editorial '''
         return self.get_text('Publisher', 'a')
 
     def get_issn(self):
+        ''' Función que obtiene el issn '''
         text = self.get_text('ISSN', 'p')
         if text:
             return [issn.strip() for issn in text.split(',')] if text else None
         return None
 
     def get_publication_type(self):
+        ''' Función que obtiene el tipo de publicación '''
         return self.get_text('Publication type', 'p')
 
     def get_widget(self):
+        ''' Función que obtiene el widget '''
         widget_div = self.soup.find('div', class_='widgetlegend')
         if widget_div:
             input_tag = widget_div.find('input', id='embed_code')
@@ -102,6 +113,7 @@ class Scrapper:
         return None
 
     def get_text(self, heading, tag_name, class_=None):
+        ''' Función que obtiene el texto dentro de un h2 '''
         h = self.soup.find('h2', string=heading)
         if h:
             tag = h.find_next(tag_name, class_=class_) if class_ else h.find_next(tag_name)
@@ -109,6 +121,7 @@ class Scrapper:
         return None
 
     def get_data(self):
+        ''' Función que obtiene los datos de una revista '''
         if not self.url:
             return None
 

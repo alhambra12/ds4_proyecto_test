@@ -30,21 +30,21 @@ def create_folder_dic(dir: str) -> dict:
                 dic[title].append(value)
     return dic
 
-def create_magazine_dic(dic_areas: dict, dic_catalogos: dict) -> dict:
+def create_journal_dic(dic_areas: dict, dic_catalogos: dict) -> dict:
     ''' Función para crear diccionario de revistas con áreas y catálogos '''
-    magazine = {}
+    journal = {}
     
     for title, area in dic_areas.items():
-        if title not in magazine:
-            magazine[title] = {"areas": [], "catalogos": []}
-        magazine[title]["areas"] = list(set(magazine[title]["areas"] + area))
+        if title not in journal:
+            journal[title] = {"areas": [], "catalogos": []}
+        journal[title]["areas"] = list(set(journal[title]["areas"] + area))
     
     for title, catalogo in dic_catalogos.items():
-        if title not in magazine:
-            magazine[title] = {"areas": [], "catalogos": []}
-        magazine[title]["catalogos"] = list(set(magazine[title]["catalogos"] + catalogo))
+        if title not in journal:
+            journal[title] = {"areas": [], "catalogos": []}
+        journal[title]["catalogos"] = list(set(journal[title]["catalogos"] + catalogo))
     
-    return magazine
+    return journal
 
 def save_json(dic_revista:dict, dir_json: str):
     with open(dir_json, "w", encoding="utf-8") as f:
@@ -84,7 +84,7 @@ def main(dir_datos:str, archivo_json:str):
     if check_dir(dir_json):
         dic_areas = create_folder_dic(dir_areas)
         dic_catalogos = create_folder_dic(dir_catalogos)
-        dic_revista = create_magazine_dic(dic_areas, dic_catalogos)
+        dic_revista = create_journal_dic(dic_areas, dic_catalogos)
         save_json(dic_revista, dir_json)
         print(f"\nArchivo JSON guardado en '{dir_json}'")
 
@@ -95,10 +95,6 @@ if __name__ == '__main__':
     parser.add_argument('--dir_datos', type=str, help='Directorio de datos')
     parser.add_argument('--json_file', type=str, help='Nombre del archivo json generado')
     args = parser.parse_args()
-    dir_datos = args.dir_datos
-    json_file = args.json_file
-    if not dir_datos:
-        dir_datos = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos')
-    if not json_file:
-        json_file = 'revistas.json'
+    dir_datos = args.dir_datos or os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos')
+    json_file = args.json_file or 'revistas.json'
     main(dir_datos, json_file)

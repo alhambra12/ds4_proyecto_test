@@ -4,26 +4,26 @@ import subprocess
 
 ruta_base = os.path.dirname(os.path.abspath(__file__))
 
-def ejecutar_json_gen():
+def start_json_gen():
     ''' Función para ejecutar el generador de json '''
     subprocess.run([
         sys.executable,
         os.path.join(ruta_base, 'json_gen', 'app.py'),
         '--dir_datos', os.path.join(ruta_base, 'datos'),
-        '--archivo_json', 'revistas.json'
+        '--json_file', 'revistas.json'
     ])
 
-def ejecutar_scrapper():
+def start_scrapper():
     ''' Función para ejecutar el scrapper de scimagojr '''
     subprocess.run([
         sys.executable,
         os.path.join(ruta_base, 'scrapper', 'app.py'),
         '--dir_json', os.path.join(ruta_base, 'datos', 'json'),
-        '--input_path', 'revistas.json',
-        '--output_path', 'salida.json'
+        '--input', 'revistas.json',
+        '--output', 'salida.json'
     ])
 
-def ejecutar_webapp():
+def start_webapp():
     ''' Función para ejecutar la aplicación web '''
 
 def main():
@@ -38,11 +38,11 @@ def main():
 
     match opcion:
         case '1':
-            ejecutar_json_gen()
+            start_json_gen()
         case '2':
-            ejecutar_scrapper()
+            start_scrapper()
         case '3':
-            ejecutar_webapp()
+            start_webapp()
         case '4':
             print("\nSaliendo del programa.\n")
         case _:

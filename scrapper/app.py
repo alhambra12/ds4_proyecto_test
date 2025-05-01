@@ -1,20 +1,22 @@
-import os
-import argparse
+''' Programa scrapper para scimagojr.com '''
+
+import os, argparse
 from functions import fix_path, check_path, load_json, save_json
 from scrapper import Scrapper
 
 def main(dir_json:str, input:str, output:str):
+    dir_json = fix_path(dir_json)
     input_path = fix_path(os.path.join(dir_json, input))
     output_path = fix_path(os.path.join(dir_json, output))
 
     if not check_path(output_path):
         return
 
-    magazines = load_json(input_path)
+    joutnals = load_json(input_path)
     data = {}
 
     print("\nProcesando revistas:")
-    for title in magazines:
+    for title in joutnals:
         print(f"\n- Procesando: {title}")
         scrapper = Scrapper(title)
         if scrapper.search_url():
@@ -33,11 +35,11 @@ def main(dir_json:str, input:str, output:str):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--dir_json', type=str, help='Directorio de JSONs')
-    parser.add_argument('--input_path', type=str, help='Archivo de entrada')
-    parser.add_argument('--output_path', type=str, help='Archivo de salida')
+    parser.add_argument('--input', type=str, help='Archivo de entrada')
+    parser.add_argument('--output', type=str, help='Archivo de salida')
     args = parser.parse_args()
-    dir_json = args.dir_json or fix_path(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos', 'json'))
-    input_path = args.input_path or 'revistas_test.json'
-    output_path = args.output_path or 'scrap_test.json'
+    dir_json = args.dir_json or os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos', 'json')
+    input = args.input or 'revistas_test.json'
+    output = args.output or 'scrap_test.json'
 
-    main(dir_json, input_path, output_path)
+    main(dir_json, input, output)
