@@ -1,6 +1,7 @@
-from flask import Flask, render_template, abort
-from journal_json import create_journal_json, create_journal_dict
 import os, argparse
+from flask import Flask, render_template, abort
+from journal_json import create_journal_json, load_journals
+from functions import get_attribute
 
 app = Flask(__name__)
 
@@ -16,20 +17,48 @@ scimago_json = args.scimago_json or 'revistas_scimagojr_test.json'
 
 create_journal_json(dir_json, unison_json, scimago_json)
 
-journals = create_journal_dict(dir_json)
+journals = load_journals(dir_json)
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
 @app.route('/revista/<id_journal>')
-def journal(id_journal):
+def journal_view(id_journal):
     ''' Página de detalles de la revista '''
-    journal_obj = journals.get(id_journal)
-    if not journal_obj:
+    journal = next((j for j in journals if j.id == id_journal), None)
+    if not journal:
         abort(404)
+    return render_template('journal.html', journal=journal.to_dict())
 
-    return render_template('journal.html', journal=journal_obj.to_dict())
+@app.route('/areas')
+def areas_view():
+    areas = get_attribute(journals, 'areas')
+    return render_template('areas.html', areas=areas)
+
+@app.route('/areas/<area>')
+def area_view(area):
+    journals_by_area = [j for j in journals if area in j.areas]
+    return render_template('area.html', area=area, journals=journals_by_area)
+
+@app.route('/catalogos')
+def catalogs_view():
+    catalogs = get_attribute(journals, 'catalogs')
+    return render_template('catalogs.html', catalogs=catalogs)
+
+@app.route('/catalogos/<catalog>')
+def catalog_view(catalog):
+    journals_by_catalog = [j for j in journals if catalog in j.catalogs]
+    return render_template('catalog.html', catalog=catalog, journals=journals_by_catalog)
+
+@app.route('/explorar')
+def letters_view():
+    return render_template('explore.html')
+
+@app.route('/explorar/<letter>')
+def letter_view(letter):
+    journals_by_letter = [j for j in journals if j.title.lower().startswith(letter.lower())]
+    return render_template('letter.html', letter=letter, journals=journals_by_letter)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -29,9 +29,13 @@ def find_common_journals(unison_data: dict, scimago_data: dict) -> dict:
 
 def create_journal_json(dir_json: str, unison_json: str, scimago_json: str):
     ''' Combina los datos de Unison y Scimago en un solo json '''
+    output_path = os.path.join(dir_json, json_filename)
+
+    if os.path.exists(output_path):
+        return
+    
     path_unison = os.path.join(dir_json, unison_json)
     path_scimago = os.path.join(dir_json, scimago_json)
-    output_path = os.path.join(dir_json, json_filename)
 
     unison_data = load_json(path_unison)
     scimago_data = load_json(path_scimago)
@@ -41,16 +45,15 @@ def create_journal_json(dir_json: str, unison_json: str, scimago_json: str):
     save_json(combined_data, output_path)
     print(f"Archivo json generado.")
 
-def create_journal_dict(path: str) -> dict:
-    ''' Crea un diccionario de objetos Journal con ID numérico como clave y atributo '''
+def load_journals(path: str) -> list:
+    ''' Crea una lista con la clase Journal '''
     path = os.path.join(path, json_filename)
     journal_json = load_json(path)
 
-    journal_dict = {}
+    journals = []
     for idx, (title, info) in enumerate(sorted(journal_json.items())):
-        id_str = str(idx)
         journal = Journal(
-            id=id_str,
+            id=str(idx),
             title=title,
             areas=info.get('areas', []),
             catalogs=info.get('catalogos', []),
@@ -62,6 +65,6 @@ def create_journal_dict(path: str) -> dict:
             widget=info.get('widget', ''),
             publication_type=info.get('publication_type', '')
         )
-        journal_dict[id_str] = journal
+        journals.append(journal)
 
-    return journal_dict
+    return journals

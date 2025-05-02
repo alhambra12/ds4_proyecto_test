@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Journal Database - Busqueda{% endblock %}
+{% block body %}
+
+
+<h1>Revistas:</h1>
+<p>Selecciona la letra a mostrar</p>
+<div>
+    {% for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' %}
+    <a href="/explorar/{{ letter }}">{{ letter }}</a>
+    {% if not loop.last %} | {% endif %}
+    {% endfor %}
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Journal Database - {{ letter }}{% endblock %}
+{% block body %}
+
+<h1>Revistas que empiezan con: {{ letter }}</h1>
+<ul>
+  {% for journal in journals %}
+    <li>
+      <a href="/revista/{{ journal.id }}">{{ journal.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% endblock %}

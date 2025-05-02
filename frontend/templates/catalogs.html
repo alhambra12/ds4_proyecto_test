@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Journal Database - Catalogos{% endblock %}
+{% block body %}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<body>
+    <h1>Catalogos:</h1>
+    <ul>
+        {% for catalog in catalogs %}
+        <li><a href="/catalogos/{{ catalog }}">{{ catalog }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
+{% endblock %}

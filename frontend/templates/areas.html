@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Journal Database - Areas{% endblock %}
+{% block body %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Areas</title>
+</head>
+<body>
+    <h1>Áreas:</h1>
+    <ul>
+        {% for area in areas %}
+        <li><a href="/areas/{{ area }}">{{ area }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
+{% endblock %}
