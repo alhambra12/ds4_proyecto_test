@@ -39,7 +39,7 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=str, help='Archivo de salida')
     args = parser.parse_args()
     dir_json = args.dir_json or os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos', 'json')
-    input = args.input or 'revistas_test.json'
-    output = args.output or 'scrap_test.json'
+    input = args.input or 'revistas_unison_test.json'
+    output = args.output or 'revistas_scimagojr_test.json'
 
     main(dir_json, input, output)

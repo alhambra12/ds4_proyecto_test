@@ -96,5 +96,5 @@ if __name__ == '__main__':
     parser.add_argument('--json_file', type=str, help='Nombre del archivo json generado')
     args = parser.parse_args()
     dir_datos = args.dir_datos or os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos')
-    json_file = args.json_file or 'revistas.json'
+    json_file = args.json_file or 'revistas_unison.json'
     main(dir_datos, json_file)

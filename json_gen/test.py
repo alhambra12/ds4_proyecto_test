@@ -16,6 +16,6 @@ def get_journals(journals, cantidad=200):
     return {k: journals[k] for k in selected}
 
 if __name__ == '__main__':
-    journals_dic = load_json(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos', 'json', 'revistas.json'))
+    journals_dic = load_json(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos', 'json', 'revistas_unison.json'))
     selected_journal = get_journals(journals_dic, 100)
-    save_json(selected_journal, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos', 'json', 'revistas_test.json'))
+    save_json(selected_journal, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'datos', 'json', 'revistas_unison_test.json'))

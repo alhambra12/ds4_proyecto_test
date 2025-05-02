@@ -1,0 +1,876 @@
+{
+  "WINESBURG EAGLE: THE OFFICIAL PUBLICATION OF THE SHERWOOD ANDERSON SOCIETY": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "NINETEENTH CENTURY MUSIC": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "CANADIAN ASSOCIATION OF RADIOLOGISTS JOURNAL": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "AUSTRIACA: CAHIERS UNIVERSITAIRES D'INFORMATION SUR L'AUTRICHE": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "XXEME SIÔCLE": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "MLA"
+    ]
+  },
+  "OIL SHALE": {
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "EUREKA STUDIES IN TEACHING SHORT FICTION": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "AMERICAN IMAGO: STUDIES IN PSYCHOANALYSIS AND CULTURE": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "BULLETIN DE L'ASSOCIATION DES AMIS DE RABELAIS ET DE LA DEVINIÔRE": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "MLA"
+    ]
+  },
+  "GEOGRAPHY AND NATURAL RESOURCES": {
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "PHILOSOPHY & TECHNOLOGY": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "MUSEUM MANAGEMENT AND CURATORSHIP": {
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_ECO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "JOURNAL OF FORENSIC PRACTICE": {
+    "areas": [
+      "CIENCIAS_BIO",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "JOURNAL OF ARRHYTHMIA": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "POSTEPY W KARDIOLOGII INTERWENCYJNEJ": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "PREUVES: CAHIERS MENSUELS DU CONGRâS POUR LA LIBERT DE LA CULTURE": {
+    "areas": [],
+    "catalogos": [
+      "SCIELO"
+    ]
+  },
+  "EDICIONES JC": {
+    "areas": [
+      "ED_LIB"
+    ],
+    "catalogos": []
+  },
+  "SPEKTRUM DER AUGENHEILKUNDE": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "R AND D MANAGEMENT": {
+    "areas": [
+      "CIENCIAS_ECO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "GIS-ZEITSCHRIFT FšR GEOINFORMATIK": {
+    "areas": [
+      "CIENCIAS_EXA",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": []
+  },
+  "JAPANESE JOURNAL OF BACTERIOLOGY": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "SPIRAGLI (MARSALA)": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "OPERATIONS MANAGEMENT RESEARCH": {
+    "areas": [
+      "CIENCIAS_ECO",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "R&D MAGAZINE": {
+    "areas": [
+      "MULTI",
+      "ING"
+    ],
+    "catalogos": [
+      "JCR"
+    ]
+  },
+  "JOURNAL OF CAREER ASSESSMENT": {
+    "areas": [
+      "CIENCIAS_ECO",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "INTERNATIONAL ORTHODONTICS": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "INTEGRAL TRANSFORMS AND SPECIAL FUNCTIONS": {
+    "areas": [
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "CRÖTICA: REVISTA HISPANOAMERICANA DE FILOSOFÖA": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": []
+  },
+  "THOTH: SYRACUSE UNIVERSITY GRADUATE STUDIES IN ENGLISH": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "SOVETSKOE FINNO-UGROVEDENIE/SOVIET FINNO-UGRIC STUDIES": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "INTERNATIONAL JOURNAL OF POWER AND ENERGY CONVERSION": {
+    "areas": [
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "JOURNAL OF HAND SURGERY: EUROPEAN VOLUME": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "ARGUMENTATION ET ANALYSE DU DISCOURS": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "CURRENT TRENDS IN BIOTECHNOLOGY AND PHARMACY": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "IMMUNOLOGY AND IMMUNOGENETICS INSIGHTS": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "IIC-INTERNATIONAL REVIEW OF INTELLECTUAL PROPERTY AND COMPETITION LAW": {
+    "areas": [
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "JCR"
+    ]
+  },
+  "EMPIRICAL STUDIES OF THE ARTS": {
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA",
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "PASADO & PRESENTE": {
+    "areas": [
+      "ED_LIB"
+    ],
+    "catalogos": []
+  },
+  "JOURNAL OF THE ELECTROCHEMICAL SOCIETY": {
+    "areas": [
+      "CIENCIAS_BIO",
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "LASER FOCUS WORLD": {
+    "areas": [
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [
+      "JCR"
+    ]
+  },
+  "JOURNAL OF RESEARCH IN SCIENCE TEACHING": {
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "BOLLETTINO DELL'ISTITUTO DI LINGUE ESTERE": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "ORTNAMNSSALLSKAPETS I UPPSALA ARSSKRIFT": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "INTERNATIONAL ARAB JOURNAL OF INFORMATION TECHNOLOGY": {
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "LILI - ZEITSCHRIFT FUR LITERATURWISSENSCHAFT UND LINGUISTIK": {
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "RENAISSANCE PAPERS": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "ANTHROPOS: REVISTA DE DOCUMENTACION CIENTIFICA DE LA CULTURA": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "MELUS": {
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "SCOPUS",
+      "MLA"
+    ]
+  },
+  "CHEMICAL IMMUNOLOGY AND ALLERGY": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "UNIVERSITY OF WINDSOR REVIEW": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "EXEMPLARIA CLASSICA: JOURNAL OF CLASSICAL PHILOLOGY/REVISTA DE FILOLOG™A CLæSICA": {
+    "areas": [],
+    "catalogos": [
+      "SCIELO"
+    ]
+  },
+  "ETHIOPIAN JOURNAL OF HEALTH DEVELOPMENT": {
+    "areas": [
+      "CIENCIAS_BIO",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "GENDER PLACE AND CULTURE": {
+    "areas": [
+      "CIENCIAS_EXA",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "JCR"
+    ]
+  },
+  "STUDI PIEMONTESI": {
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "SCOPUS",
+      "MLA"
+    ]
+  },
+  "MYCOTOXIN RESEARCH": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "MAPAN-JOURNAL OF METROLOGY SOCIETY OF INDIA": {
+    "areas": [
+      "CIENCIAS_BIO",
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "JCR"
+    ]
+  },
+  "IZVESTIIA AKADEMII NAUK S.S.S.R., SERIIA LITERATURY I IAZYKA": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "ENGINEERING ECONOMIST": {
+    "areas": [
+      "ING",
+      "CIENCIAS_ECO",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "THE BULLETIN OF THE WEST VIRGINIA ASSOCIATION OF COLLEGE ENGLISH TEACHERS": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "COMPOSITION STUDIES": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "JOURNAL OF WATER SUPPLY RESEARCH AND TECHNOLOGY-AQUA": {
+    "areas": [
+      "ING"
+    ],
+    "catalogos": [
+      "JCR"
+    ]
+  },
+  "INTERNATIONAL JOURNAL OF HIGH PERFORMANCE SYSTEMS ARCHITECTURE": {
+    "areas": [
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "PROPAGATION OF ORNAMENTAL PLANTS": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "ANALYSIS AND PDE": {
+    "areas": [
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "BOKVANNEN: UTGIVEN AV SALLSKAPET BOKVANNERNA": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "UNIVERSITY POLITEHNICA OF BUCHAREST SCIENTIFIC BULLETIN-SERIES A-APPLIED MATHEMATICS AND PHYSICS": {
+    "areas": [
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [
+      "JCR"
+    ]
+  },
+  "ITALIA DIALETTALE: RIVISTA DI DIALETTOLOGIA ITALIANA": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "THE AMERICAN JOURNAL OF SEMIOTICS": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "INSTRUCTIONAL SCIENCE": {
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "JOURNAL OF CARDIOTHORACIC SURGERY": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "CENTRUM: WORKING PAPERS OF THE MINNESOTA CENTER FOR ADVANCED STUDIES IN LANGUAGE": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "ASIAN SECURITY": {
+    "areas": [
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "METABOLIC ENGINEERING COMMUNICATIONS": {
+    "areas": [
+      "CIENCIAS_BIO",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "WIRELESS COMMUNICATIONS AND MOBILE COMPUTING": {
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "CIVIL WAR HISTORY": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "SCOPUS",
+      "MLA"
+    ]
+  },
+  "SEMINARS IN FETAL & NEONATAL MEDICINE": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "JCR"
+    ]
+  },
+  "EUROPEAN EATING DISORDERS REVIEW": {
+    "areas": [
+      "CIENCIAS_BIO",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "TECNICA PECUARIA EN MEXICO": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "NATURE STRUCTURAL & MOLECULAR BIOLOGY": {
+    "areas": [
+      "CIENCIAS_BIO",
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [
+      "JCR"
+    ]
+  },
+  "CLINICAL NEUROSURGERY": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "MOLECULAR THERAPY - NUCLEIC ACIDS": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "INTERNATIONAL JOURNAL OF CIRCUIT THEORY AND APPLICATIONS": {
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "HELM": {
+    "areas": [
+      "ED_LIB"
+    ],
+    "catalogos": []
+  },
+  "NETHERLANDS QUARTERLY OF HUMAN RIGHTS": {
+    "areas": [
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "MITTEILUNGEN KLOSTERNEUBURG": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "BILINGUAL RESEARCH JOURNAL": {
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "TRADITION: A JOURNAL OF ORTHODOX JEWISH THOUGHT": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "ATW - INTERNATIONALE ZEITSCHRIFT FšR KERNENERGIE": {
+    "areas": [
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": []
+  },
+  "JAHRBUCH DER GESELLSCHAFT FUR WIENER THEATERFORSCHUNG": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "TRANSACTIONS ON ELECTRICAL ENGINEERING, ELECTRONICS, AND COMMUNICATIONS": {
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "PFLEGE": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "ADVANCED STEEL CONSTRUCTION": {
+    "areas": [
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "AQUACULTURE ECONOMICS & MANAGEMENT": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "JCR"
+    ]
+  },
+  "EURASIAN JOURNAL OF ANALYTICAL CHEMISTRY": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "SPE JOURNAL": {
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "MUTATIS MUTANDIS": {
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ]
+  },
+  "SOUTH AFRICAN JOURNAL OF SURGERY": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "UNIVERSITAS: ZEITSCHRIFT FUR INTERDISZIPLINARE WISSENSCHAFT": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  },
+  "HOLISTIC NURSING PRACTICE": {
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ]
+  },
+  "CATHOLIC CHOIRMASTER": {
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA"
+    ]
+  }
+}

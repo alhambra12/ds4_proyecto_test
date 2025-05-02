@@ -1,0 +1,2006 @@
+{
+  "ADVANCED STEEL CONSTRUCTION": {
+    "id": "0",
+    "areas": [
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "http://ascjournal.com/",
+    "h_index": "32",
+    "area_categoria": [
+      {
+        "area": "Engineering",
+        "categorias": [
+          "Building and Construction",
+          "Civil and Structural Engineering",
+          "Mechanical Engineering",
+          "Mechanics of Materials"
+        ]
+      }
+    ],
+    "publisher": "Hong Kong Institute of Steel Construction",
+    "issn": [
+      "1816112X"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=19700174655&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=19700174655\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "ANALYSIS AND PDE": {
+    "id": "1",
+    "areas": [
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://msp.org/apde/2020/13-3/",
+    "h_index": "45",
+    "area_categoria": [
+      {
+        "area": "Mathematics",
+        "categorias": [
+          "Analysis",
+          "Applied Mathematics",
+          "Numerical Analysis"
+        ]
+      }
+    ],
+    "publisher": "Mathematical Sciences Publishers",
+    "issn": [
+      "1948206X",
+      "21575045"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100242249&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100242249\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "AQUACULTURE ECONOMICS & MANAGEMENT": {
+    "id": "2",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "JCR"
+    ],
+    "sitio_web": "https://www.tandfonline.com/journals/uaqm20",
+    "h_index": "46",
+    "area_categoria": [
+      {
+        "area": "Agricultural and Biological Sciences",
+        "categorias": [
+          "Aquatic Science"
+        ]
+      },
+      {
+        "area": "Environmental Science",
+        "categorias": [
+          "Ecology"
+        ]
+      },
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Geography, Planning and Development"
+        ]
+      }
+    ],
+    "publisher": "Taylor and Francis Ltd.",
+    "issn": [
+      "13657305",
+      "13657313"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=29421&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=29421\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "ASIAN SECURITY": {
+    "id": "3",
+    "areas": [
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://www.tandfonline.com/journals/fasi20",
+    "h_index": "24",
+    "area_categoria": [
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Political Science and International Relations",
+          "Safety Research"
+        ]
+      }
+    ],
+    "publisher": "Routledge",
+    "issn": [
+      "14799855"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=5800169383&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=5800169383\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "ATW - INTERNATIONALE ZEITSCHRIFT FšR KERNENERGIE": {
+    "id": "4",
+    "areas": [
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [],
+    "sitio_web": null,
+    "h_index": "7",
+    "area_categoria": [
+      {
+        "area": "Energy",
+        "categorias": [
+          "Nuclear Energy and Engineering"
+        ]
+      }
+    ],
+    "publisher": "Inforum Verlags- und Verwaltungsgesellschaft mbH",
+    "issn": [
+      "14315254"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=29351&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=29351\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "BILINGUAL RESEARCH JOURNAL": {
+    "id": "5",
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://www.tandfonline.com/journals/ubrj20",
+    "h_index": "51",
+    "area_categoria": [
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Education",
+          "Linguistics and Language"
+        ]
+      }
+    ],
+    "publisher": "Routledge",
+    "issn": [
+      "15235882",
+      "15235890"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=5800222015&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=5800222015\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "CANADIAN ASSOCIATION OF RADIOLOGISTS JOURNAL": {
+    "id": "6",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "http://www.carjonline.org/",
+    "h_index": "44",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Medicine (miscellaneous)",
+          "Radiology, Nuclear Medicine and Imaging"
+        ]
+      }
+    ],
+    "publisher": "Elsevier Inc.",
+    "issn": [
+      "08465371",
+      "14882361"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=16593&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=16593\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "CHEMICAL IMMUNOLOGY AND ALLERGY": {
+    "id": "7",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://karger.com/collection/30221/Chemical-Immunology-and-Allergy",
+    "h_index": "53",
+    "area_categoria": [
+      {
+        "area": "Immunology and Microbiology",
+        "categorias": [
+          "Immunology"
+        ]
+      },
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Immunology and Allergy",
+          "Medicine (miscellaneous)"
+        ]
+      }
+    ],
+    "publisher": "S. Karger AG",
+    "issn": [
+      "16602242",
+      "16622898"
+    ],
+    "publication_type": "Book Series",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=78477&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=78477\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "CIVIL WAR HISTORY": {
+    "id": "8",
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "SCOPUS",
+      "MLA"
+    ],
+    "sitio_web": "https://www.kentstateuniversitypress.com/journals/civil-war-history/",
+    "h_index": "16",
+    "area_categoria": [
+      {
+        "area": "Arts and Humanities",
+        "categorias": [
+          "History"
+        ]
+      }
+    ],
+    "publisher": "Kent State University",
+    "issn": [
+      "00098078",
+      "15336271"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=24471&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=24471\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "CLINICAL NEUROSURGERY": {
+    "id": "9",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://academic.oup.com/neurosurgery",
+    "h_index": "54",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Neurology (clinical)",
+          "Surgery"
+        ]
+      }
+    ],
+    "publisher": "Lippincott Williams and Wilkins Ltd.",
+    "issn": [
+      "00694827",
+      "26317117"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=14904&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=14904\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "CURRENT TRENDS IN BIOTECHNOLOGY AND PHARMACY": {
+    "id": "10",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://www.abap.co.in/",
+    "h_index": "17",
+    "area_categoria": [
+      {
+        "area": "Biochemistry, Genetics and Molecular Biology",
+        "categorias": [
+          "Biotechnology"
+        ]
+      },
+      {
+        "area": "Pharmacology, Toxicology and Pharmaceutics",
+        "categorias": [
+          "Drug Discovery",
+          "Pharmaceutical Science"
+        ]
+      }
+    ],
+    "publisher": "Association of Biotechnology and Pharmacy",
+    "issn": [
+      "09738916",
+      "22307303"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=17300154738&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=17300154738\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "EMPIRICAL STUDIES OF THE ARTS": {
+    "id": "11",
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "MLA",
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://journals.sagepub.com/home/art",
+    "h_index": "23",
+    "area_categoria": [
+      {
+        "area": "Arts and Humanities",
+        "categorias": [
+          "Literature and Literary Theory",
+          "Music",
+          "Visual Arts and Performing Arts"
+        ]
+      }
+    ],
+    "publisher": "SAGE Publications Inc.",
+    "issn": [
+      "02762374"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=5700158829&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=5700158829\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "ENGINEERING ECONOMIST": {
+    "id": "12",
+    "areas": [
+      "ING",
+      "CIENCIAS_ECO",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://www.tandfonline.com/journals/utee20",
+    "h_index": "37",
+    "area_categoria": [
+      {
+        "area": "Economics, Econometrics and Finance",
+        "categorias": [
+          "Economics and Econometrics"
+        ]
+      },
+      {
+        "area": "Engineering",
+        "categorias": [
+          "Engineering (miscellaneous)"
+        ]
+      },
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Education"
+        ]
+      }
+    ],
+    "publisher": "Taylor and Francis Ltd.",
+    "issn": [
+      "0013791X",
+      "15472701"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=29064&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=29064\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "ETHIOPIAN JOURNAL OF HEALTH DEVELOPMENT": {
+    "id": "13",
+    "areas": [
+      "CIENCIAS_BIO",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://www.ejhd.org/index.php/ejhd",
+    "h_index": "29",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Infectious Diseases",
+          "Public Health, Environmental and Occupational Health"
+        ]
+      }
+    ],
+    "publisher": "Ethiopian Public Health Association",
+    "issn": [
+      "10216790"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=19900191881&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=19900191881\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "EURASIAN JOURNAL OF ANALYTICAL CHEMISTRY": {
+    "id": "14",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "http://www.eurasianjournals.com/",
+    "h_index": "18",
+    "area_categoria": [
+      {
+        "area": "Chemistry",
+        "categorias": [
+          "Analytical Chemistry",
+          "Electrochemistry",
+          "Spectroscopy"
+        ]
+      },
+      {
+        "area": "Pharmacology, Toxicology and Pharmaceutics",
+        "categorias": [
+          "Pharmaceutical Science"
+        ]
+      }
+    ],
+    "publisher": "Society for Innovative Research",
+    "issn": [
+      "13063057"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100195303&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100195303\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "EUROPEAN EATING DISORDERS REVIEW": {
+    "id": "15",
+    "areas": [
+      "CIENCIAS_BIO",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://onlinelibrary.wiley.com/journal/10990968",
+    "h_index": "89",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Psychiatry and Mental Health"
+        ]
+      },
+      {
+        "area": "Psychology",
+        "categorias": [
+          "Clinical Psychology"
+        ]
+      }
+    ],
+    "publisher": "John Wiley and Sons Ltd",
+    "issn": [
+      "10724133",
+      "10990968"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=14097&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=14097\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "GENDER PLACE AND CULTURE": {
+    "id": "16",
+    "areas": [
+      "CIENCIAS_EXA",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "JCR"
+    ],
+    "sitio_web": "https://www.tandfonline.com/journals/cgpc20",
+    "h_index": "86",
+    "area_categoria": [
+      {
+        "area": "Arts and Humanities",
+        "categorias": [
+          "Arts and Humanities (miscellaneous)"
+        ]
+      },
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Cultural Studies",
+          "Demography",
+          "Gender Studies"
+        ]
+      }
+    ],
+    "publisher": "Routledge",
+    "issn": [
+      "0966369X",
+      "13600524"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=23638&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=23638\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "GEOGRAPHY AND NATURAL RESOURCES": {
+    "id": "17",
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://www.springer.com/journal/13541",
+    "h_index": "17",
+    "area_categoria": [
+      {
+        "area": "Earth and Planetary Sciences",
+        "categorias": [
+          "Earth-Surface Processes"
+        ]
+      },
+      {
+        "area": "Environmental Science",
+        "categorias": [
+          "Management, Monitoring, Policy and Law"
+        ]
+      },
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Geography, Planning and Development"
+        ]
+      }
+    ],
+    "publisher": "Pleiades Publishing",
+    "issn": [
+      "1875371X",
+      "18753728"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=11700154716&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=11700154716\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "GIS-ZEITSCHRIFT FšR GEOINFORMATIK": {
+    "id": "18",
+    "areas": [
+      "CIENCIAS_EXA",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [],
+    "sitio_web": null,
+    "h_index": "6",
+    "area_categoria": [
+      {
+        "area": "Computer Science",
+        "categorias": [
+          "Information Systems"
+        ]
+      },
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Geography, Planning and Development"
+        ]
+      }
+    ],
+    "publisher": "Wichmann, VDE",
+    "issn": [
+      "18699391",
+      "26984571"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=6000195384&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=6000195384\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "HOLISTIC NURSING PRACTICE": {
+    "id": "19",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://journals.lww.com/hnpjournal/pages/default.aspx",
+    "h_index": "44",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Complementary and Alternative Medicine",
+          "Medicine (miscellaneous)"
+        ]
+      },
+      {
+        "area": "Nursing",
+        "categorias": [
+          "Advanced and Specialized Nursing"
+        ]
+      }
+    ],
+    "publisher": "Lippincott Williams and Wilkins Ltd.",
+    "issn": [
+      "08879311",
+      "15505138"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=27717&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=27717\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "IIC-INTERNATIONAL REVIEW OF INTELLECTUAL PROPERTY AND COMPETITION LAW": {
+    "id": "20",
+    "areas": [
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "JCR"
+    ],
+    "sitio_web": "https://www.springer.com/journal/40319",
+    "h_index": "25",
+    "area_categoria": [
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Law",
+          "Political Science and International Relations"
+        ]
+      }
+    ],
+    "publisher": "Springer International Publishing AG",
+    "issn": [
+      "00189855",
+      "21950237"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=39526&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=39526\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "IMMUNOLOGY AND IMMUNOGENETICS INSIGHTS": {
+    "id": "21",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://journals.sagepub.com/home/iii",
+    "h_index": "7",
+    "area_categoria": [
+      {
+        "area": "Immunology and Microbiology",
+        "categorias": [
+          "Immunology"
+        ]
+      },
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Immunology and Allergy"
+        ]
+      }
+    ],
+    "publisher": "SAGE Publications Ltd",
+    "issn": [
+      "11786345"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100203321&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100203321\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "INSTRUCTIONAL SCIENCE": {
+    "id": "22",
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://www.springer.com/journal/11251",
+    "h_index": "95",
+    "area_categoria": [
+      {
+        "area": "Psychology",
+        "categorias": [
+          "Developmental and Educational Psychology"
+        ]
+      },
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Education"
+        ]
+      }
+    ],
+    "publisher": "Springer Netherlands",
+    "issn": [
+      "00204277",
+      "15731952"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21368&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21368\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "INTEGRAL TRANSFORMS AND SPECIAL FUNCTIONS": {
+    "id": "23",
+    "areas": [
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://www.tandfonline.com/journals/gitr20",
+    "h_index": "50",
+    "area_categoria": [
+      {
+        "area": "Mathematics",
+        "categorias": [
+          "Analysis",
+          "Applied Mathematics"
+        ]
+      }
+    ],
+    "publisher": "Taylor and Francis Ltd.",
+    "issn": [
+      "10652469",
+      "14768291"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=23229&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=23229\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "INTERNATIONAL ARAB JOURNAL OF INFORMATION TECHNOLOGY": {
+    "id": "24",
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://www.iajit.org/",
+    "h_index": "38",
+    "area_categoria": [
+      {
+        "area": "Computer Science",
+        "categorias": [
+          "Computer Science (miscellaneous)"
+        ]
+      }
+    ],
+    "publisher": "Zarqa University",
+    "issn": [
+      "16833198",
+      "23094524"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=19500157821&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=19500157821\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "INTERNATIONAL JOURNAL OF CIRCUIT THEORY AND APPLICATIONS": {
+    "id": "25",
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://onlinelibrary.wiley.com/journal/1097007x",
+    "h_index": "58",
+    "area_categoria": [
+      {
+        "area": "Computer Science",
+        "categorias": [
+          "Computer Science Applications"
+        ]
+      },
+      {
+        "area": "Engineering",
+        "categorias": [
+          "Electrical and Electronic Engineering"
+        ]
+      },
+      {
+        "area": "Materials Science",
+        "categorias": [
+          "Electronic, Optical and Magnetic Materials"
+        ]
+      },
+      {
+        "area": "Mathematics",
+        "categorias": [
+          "Applied Mathematics"
+        ]
+      }
+    ],
+    "publisher": "John Wiley and Sons Ltd",
+    "issn": [
+      "00989886",
+      "1097007X"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=17963&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=17963\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "INTERNATIONAL JOURNAL OF HIGH PERFORMANCE SYSTEMS ARCHITECTURE": {
+    "id": "26",
+    "areas": [
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://www.inderscience.com/jhome.php?jcode=ijhpsa",
+    "h_index": "15",
+    "area_categoria": [
+      {
+        "area": "Computer Science",
+        "categorias": [
+          "Hardware and Architecture"
+        ]
+      }
+    ],
+    "publisher": "Inderscience Enterprises Ltd",
+    "issn": [
+      "17516528",
+      "17516536"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=19600166211&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=19600166211\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "INTERNATIONAL JOURNAL OF POWER AND ENERGY CONVERSION": {
+    "id": "27",
+    "areas": [
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://www.inderscience.com/jhome.php?jcode=ijpec",
+    "h_index": "12",
+    "area_categoria": [
+      {
+        "area": "Energy",
+        "categorias": [
+          "Energy Engineering and Power Technology"
+        ]
+      }
+    ],
+    "publisher": "Inderscience Enterprises Ltd",
+    "issn": [
+      "17571154",
+      "17571162"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100211767&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100211767\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "INTERNATIONAL ORTHODONTICS": {
+    "id": "28",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "http://www.elsevier.com/wps/find/journaldescription.cws_home/709660/description#description",
+    "h_index": "24",
+    "area_categoria": [
+      {
+        "area": "Dentistry",
+        "categorias": [
+          "Orthodontics"
+        ]
+      }
+    ],
+    "publisher": "Elsevier Masson s.r.l.",
+    "issn": [
+      "17617227"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=4000148702&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=4000148702\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "JAPANESE JOURNAL OF BACTERIOLOGY": {
+    "id": "29",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "http://jsbac.org/journal/SAIKINZASSHI/J-kitei.html",
+    "h_index": "8",
+    "area_categoria": [
+      {
+        "area": "Immunology and Microbiology",
+        "categorias": [
+          "Applied Microbiology and Biotechnology",
+          "Microbiology"
+        ]
+      },
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Medicine (miscellaneous)"
+        ]
+      }
+    ],
+    "publisher": "Business Center for Academic Societies Japan/Nihon Gakkai Jimu Senta",
+    "issn": [
+      "00214930",
+      "18824110"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=22407&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=22407\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "JOURNAL OF ARRHYTHMIA": {
+    "id": "30",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://onlinelibrary.wiley.com/journal/18832148",
+    "h_index": "36",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Cardiology and Cardiovascular Medicine"
+        ]
+      }
+    ],
+    "publisher": "John Wiley & Sons Inc.",
+    "issn": [
+      "18804276",
+      "18832148"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100222301&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100222301\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "JOURNAL OF CARDIOTHORACIC SURGERY": {
+    "id": "31",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://cardiothoracicsurgery.biomedcentral.com/",
+    "h_index": "61",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Cardiology and Cardiovascular Medicine",
+          "Medicine (miscellaneous)",
+          "Pulmonary and Respiratory Medicine",
+          "Surgery"
+        ]
+      }
+    ],
+    "publisher": "BioMed Central Ltd",
+    "issn": [
+      "17498090"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=5800179605&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=5800179605\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "JOURNAL OF CAREER ASSESSMENT": {
+    "id": "32",
+    "areas": [
+      "CIENCIAS_ECO",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://journals.sagepub.com/home/jca",
+    "h_index": "82",
+    "area_categoria": [
+      {
+        "area": "Business, Management and Accounting",
+        "categorias": [
+          "Organizational Behavior and Human Resource Management"
+        ]
+      },
+      {
+        "area": "Psychology",
+        "categorias": [
+          "Applied Psychology",
+          "Psychology (miscellaneous)"
+        ]
+      },
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Education"
+        ]
+      }
+    ],
+    "publisher": "SAGE Publications Inc.",
+    "issn": [
+      "10690727",
+      "15524590"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=15398&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=15398\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "JOURNAL OF FORENSIC PRACTICE": {
+    "id": "33",
+    "areas": [
+      "CIENCIAS_BIO",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://www.emeraldgrouppublishing.com/journal/jfp",
+    "h_index": "24",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Pathology and Forensic Medicine",
+          "Psychiatry and Mental Health"
+        ]
+      },
+      {
+        "area": "Psychology",
+        "categorias": [
+          "Applied Psychology"
+        ]
+      },
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Law"
+        ]
+      }
+    ],
+    "publisher": "Emerald Group Publishing Ltd.",
+    "issn": [
+      "20508794",
+      "20508808"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100255350&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100255350\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "JOURNAL OF HAND SURGERY: EUROPEAN VOLUME": {
+    "id": "34",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://journals.sagepub.com/home/jhs",
+    "h_index": "94",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Surgery"
+        ]
+      }
+    ],
+    "publisher": "SAGE Publications Ltd",
+    "issn": [
+      "17531934",
+      "20436289"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=6700153283&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=6700153283\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "JOURNAL OF RESEARCH IN SCIENCE TEACHING": {
+    "id": "35",
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://onlinelibrary.wiley.com/journal/10982736",
+    "h_index": "166",
+    "area_categoria": [
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Education"
+        ]
+      }
+    ],
+    "publisher": "John Wiley & Sons Inc.",
+    "issn": [
+      "00224308",
+      "10982736"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=23621&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=23621\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "JOURNAL OF THE ELECTROCHEMICAL SOCIETY": {
+    "id": "36",
+    "areas": [
+      "CIENCIAS_BIO",
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "http://jes.ecsdl.org/",
+    "h_index": "321",
+    "area_categoria": [
+      {
+        "area": "Chemistry",
+        "categorias": [
+          "Electrochemistry"
+        ]
+      },
+      {
+        "area": "Energy",
+        "categorias": [
+          "Renewable Energy, Sustainability and the Environment"
+        ]
+      },
+      {
+        "area": "Materials Science",
+        "categorias": [
+          "Electronic, Optical and Magnetic Materials",
+          "Materials Chemistry",
+          "Surfaces, Coatings and Films"
+        ]
+      },
+      {
+        "area": "Physics and Astronomy",
+        "categorias": [
+          "Condensed Matter Physics"
+        ]
+      }
+    ],
+    "publisher": "Institute of Physics",
+    "issn": [
+      "00134651",
+      "19457111"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=25169&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=25169\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "JOURNAL OF WATER SUPPLY RESEARCH AND TECHNOLOGY-AQUA": {
+    "id": "37",
+    "areas": [
+      "ING"
+    ],
+    "catalogos": [
+      "JCR"
+    ],
+    "sitio_web": "https://iwaponline.com/aqua",
+    "h_index": "0",
+    "area_categoria": [
+      {
+        "area": "Environmental Science",
+        "categorias": [
+          "Environmental Engineering",
+          "Health, Toxicology and Mutagenesis",
+          "Water Science and Technology"
+        ]
+      }
+    ],
+    "publisher": "IWA Publishing",
+    "issn": [
+      "16053974",
+      "16069935"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=17536&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=17536\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "LASER FOCUS WORLD": {
+    "id": "38",
+    "areas": [
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [
+      "JCR"
+    ],
+    "sitio_web": "https://www.laserfocusworld.com/magazinehttps://www.laserfocusworld.com/magazine",
+    "h_index": "21",
+    "area_categoria": [
+      {
+        "area": "Business, Management and Accounting",
+        "categorias": [
+          "Marketing"
+        ]
+      },
+      {
+        "area": "Engineering",
+        "categorias": [
+          "Electrical and Electronic Engineering"
+        ]
+      },
+      {
+        "area": "Physics and Astronomy",
+        "categorias": [
+          "Atomic and Molecular Physics, and Optics",
+          "Condensed Matter Physics"
+        ]
+      }
+    ],
+    "publisher": "PennWell Corporation",
+    "issn": [
+      "10438092"
+    ],
+    "publication_type": "Trade Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=12210&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=12210\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "MAPAN-JOURNAL OF METROLOGY SOCIETY OF INDIA": {
+    "id": "39",
+    "areas": [
+      "CIENCIAS_BIO",
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "JCR"
+    ],
+    "sitio_web": "https://www.springer.com/journal/12647",
+    "h_index": "23",
+    "area_categoria": [
+      {
+        "area": "Physics and Astronomy",
+        "categorias": [
+          "Physics and Astronomy (miscellaneous)"
+        ]
+      }
+    ],
+    "publisher": "Springer India",
+    "issn": [
+      "09703950",
+      "09749853"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=19400158455&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=19400158455\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "MELUS": {
+    "id": "40",
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "SCOPUS",
+      "MLA"
+    ],
+    "sitio_web": "https://academic.oup.com/melus#",
+    "h_index": "12",
+    "area_categoria": [
+      {
+        "area": "Arts and Humanities",
+        "categorias": [
+          "Literature and Literary Theory"
+        ]
+      },
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Cultural Studies"
+        ]
+      }
+    ],
+    "publisher": "Society for the Study of the Multi-Ethnic Literature of the United States",
+    "issn": [
+      "0163755X",
+      "19463170"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=20600195616&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=20600195616\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "METABOLIC ENGINEERING COMMUNICATIONS": {
+    "id": "41",
+    "areas": [
+      "CIENCIAS_BIO",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://www.sciencedirect.com/journal/metabolic-engineering-communications",
+    "h_index": "43",
+    "area_categoria": [
+      {
+        "area": "Engineering",
+        "categorias": [
+          "Biomedical Engineering"
+        ]
+      },
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Endocrinology, Diabetes and Metabolism"
+        ]
+      }
+    ],
+    "publisher": "Elsevier B.V.",
+    "issn": [
+      "22140301"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100369715&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100369715\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "MITTEILUNGEN KLOSTERNEUBURG": {
+    "id": "42",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "http://www.weinobstklosterneuburg.at/service/klosterneuburger-mitteilungen.html",
+    "h_index": "9",
+    "area_categoria": [
+      {
+        "area": "Agricultural and Biological Sciences",
+        "categorias": [
+          "Horticulture"
+        ]
+      }
+    ],
+    "publisher": "Hohere Bundeslehr- und Versuchsanstalt fur Wein- und Obstbau",
+    "issn": [
+      "00075922"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100247056&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100247056\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "MOLECULAR THERAPY - NUCLEIC ACIDS": {
+    "id": "43",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://www.cell.com/molecular-therapy-family/home",
+    "h_index": "104",
+    "area_categoria": [
+      {
+        "area": "Biochemistry, Genetics and Molecular Biology",
+        "categorias": [
+          "Molecular Medicine"
+        ]
+      },
+      {
+        "area": "Pharmacology, Toxicology and Pharmaceutics",
+        "categorias": [
+          "Drug Discovery"
+        ]
+      }
+    ],
+    "publisher": "Cell Press",
+    "issn": [
+      "21622531"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100218543&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100218543\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "MUSEUM MANAGEMENT AND CURATORSHIP": {
+    "id": "44",
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_ECO"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://www.tandfonline.com/journals/rmmc20",
+    "h_index": "43",
+    "area_categoria": [
+      {
+        "area": "Arts and Humanities",
+        "categorias": [
+          "Museology",
+          "Visual Arts and Performing Arts"
+        ]
+      },
+      {
+        "area": "Business, Management and Accounting",
+        "categorias": [
+          "Business and International Management",
+          "Tourism, Leisure and Hospitality Management"
+        ]
+      }
+    ],
+    "publisher": "Routledge",
+    "issn": [
+      "09647775",
+      "18729185"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=100906&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=100906\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "MUTATIS MUTANDIS": {
+    "id": "45",
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://revistas.udea.edu.co/index.php/mutatismutandis",
+    "h_index": "8",
+    "area_categoria": [
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Linguistics and Language"
+        ]
+      }
+    ],
+    "publisher": "Universidad de Antioquia",
+    "issn": [
+      "2011799X"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100258403&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100258403\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "MYCOTOXIN RESEARCH": {
+    "id": "46",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "http://www.springer.com/life+sciences/microbiology/journal/12550",
+    "h_index": "50",
+    "area_categoria": [
+      {
+        "area": "Biochemistry, Genetics and Molecular Biology",
+        "categorias": [
+          "Biotechnology"
+        ]
+      },
+      {
+        "area": "Immunology and Microbiology",
+        "categorias": [
+          "Microbiology"
+        ]
+      },
+      {
+        "area": "Pharmacology, Toxicology and Pharmaceutics",
+        "categorias": [
+          "Toxicology"
+        ]
+      }
+    ],
+    "publisher": "Springer Science and Business Media Deutschland GmbH",
+    "issn": [
+      "01787888",
+      "18671632"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=25171&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=25171\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "NATURE STRUCTURAL & MOLECULAR BIOLOGY": {
+    "id": "47",
+    "areas": [
+      "CIENCIAS_BIO",
+      "CIENCIAS_EXA"
+    ],
+    "catalogos": [
+      "JCR"
+    ],
+    "sitio_web": "https://www.nature.com/nsmb/",
+    "h_index": "310",
+    "area_categoria": [
+      {
+        "area": "Biochemistry, Genetics and Molecular Biology",
+        "categorias": [
+          "Molecular Biology",
+          "Structural Biology"
+        ]
+      }
+    ],
+    "publisher": "Nature Research",
+    "issn": [
+      "15459985",
+      "15459993"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=12394&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=12394\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "NETHERLANDS QUARTERLY OF HUMAN RIGHTS": {
+    "id": "48",
+    "areas": [
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://journals.sagepub.com/home/nqh",
+    "h_index": "24",
+    "area_categoria": [
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Law",
+          "Political Science and International Relations",
+          "Sociology and Political Science"
+        ]
+      }
+    ],
+    "publisher": "Stichting Studie- en Informatiecentrum Mensenrechten",
+    "issn": [
+      "01693441"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=5600156543&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=5600156543\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "NINETEENTH CENTURY MUSIC": {
+    "id": "49",
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://online.ucpress.edu/ncm",
+    "h_index": "22",
+    "area_categoria": [
+      {
+        "area": "Arts and Humanities",
+        "categorias": [
+          "Music"
+        ]
+      }
+    ],
+    "publisher": "University of California Press",
+    "issn": [
+      "01482076",
+      "15338606"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=14000155249&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=14000155249\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "OIL SHALE": {
+    "id": "50",
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://kirj.ee/oilshale/",
+    "h_index": "34",
+    "area_categoria": [
+      {
+        "area": "Earth and Planetary Sciences",
+        "categorias": [
+          "Geotechnical Engineering and Engineering Geology"
+        ]
+      },
+      {
+        "area": "Energy",
+        "categorias": [
+          "Energy Engineering and Power Technology",
+          "Fuel Technology"
+        ]
+      }
+    ],
+    "publisher": "Estonian Academy Publishers",
+    "issn": [
+      "0208189X",
+      "17367492"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=17080&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=17080\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "OPERATIONS MANAGEMENT RESEARCH": {
+    "id": "51",
+    "areas": [
+      "CIENCIAS_ECO",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://www.springer.com/journal/12063",
+    "h_index": "48",
+    "area_categoria": [
+      {
+        "area": "Business, Management and Accounting",
+        "categorias": [
+          "Management of Technology and Innovation",
+          "Strategy and Management"
+        ]
+      },
+      {
+        "area": "Decision Sciences",
+        "categorias": [
+          "Management Science and Operations Research"
+        ]
+      },
+      {
+        "area": "Engineering",
+        "categorias": [
+          "Industrial and Manufacturing Engineering"
+        ]
+      }
+    ],
+    "publisher": "Springer New York",
+    "issn": [
+      "19369735",
+      "19369743"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=15700154705&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=15700154705\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "PFLEGE": {
+    "id": "52",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://www.hogrefe.com/ch/zeitschrift/pflege",
+    "h_index": "16",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Medicine (miscellaneous)"
+        ]
+      },
+      {
+        "area": "Nursing",
+        "categorias": [
+          "Nursing (miscellaneous)"
+        ]
+      }
+    ],
+    "publisher": "Hogrefe Publishing GmbH & Co. KG",
+    "issn": [
+      "10125302"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=29344&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=29344\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "PHILOSOPHY & TECHNOLOGY": {
+    "id": "53",
+    "areas": [
+      "HUMAN_Y_ART"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://www.springer.com/journal/13347/",
+    "h_index": "56",
+    "area_categoria": [
+      {
+        "area": "Arts and Humanities",
+        "categorias": [
+          "History and Philosophy of Science",
+          "Philosophy"
+        ]
+      }
+    ],
+    "publisher": "Springer Netherlands",
+    "issn": [
+      "22105433",
+      "22105441"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=19700182304&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=19700182304\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "POSTEPY W KARDIOLOGII INTERWENCYJNEJ": {
+    "id": "54",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://www.termedia.pl/Journal/Postepy_w_Kardiologii_Interwencyjnej-35/Info",
+    "h_index": "22",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Cardiology and Cardiovascular Medicine"
+        ]
+      }
+    ],
+    "publisher": "Termedia Publishing House Ltd.",
+    "issn": [
+      "17349338",
+      "18974295"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=12700154733&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=12700154733\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "PROPAGATION OF ORNAMENTAL PLANTS": {
+    "id": "55",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://www.journal-pop.org/",
+    "h_index": "20",
+    "area_categoria": [
+      {
+        "area": "Agricultural and Biological Sciences",
+        "categorias": [
+          "Forestry",
+          "Plant Science"
+        ]
+      }
+    ],
+    "publisher": "SEJANI Ltd.",
+    "issn": [
+      "13119109"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=4000151203&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=4000151203\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "SEMINARS IN FETAL & NEONATAL MEDICINE": {
+    "id": "56",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "JCR"
+    ],
+    "sitio_web": "https://www.sfnmjournal.com/",
+    "h_index": "111",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Pediatrics, Perinatology and Child Health"
+        ]
+      }
+    ],
+    "publisher": "W.B. Saunders Ltd",
+    "issn": [
+      "1744165X",
+      "18780946"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=28214&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=28214\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "SOUTH AFRICAN JOURNAL OF SURGERY": {
+    "id": "57",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "http://sajs.redbricklibrary.com/index.php/sajs",
+    "h_index": "26",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Surgery"
+        ]
+      }
+    ],
+    "publisher": "Medpharm Publications",
+    "issn": [
+      "00382361",
+      "20785151"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=22301&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=22301\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "SPE JOURNAL": {
+    "id": "58",
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://www.onepetro.org/journals/SPE%20Journal/Preprint/Preprint",
+    "h_index": "162",
+    "area_categoria": [
+      {
+        "area": "Earth and Planetary Sciences",
+        "categorias": [
+          "Geotechnical Engineering and Engineering Geology"
+        ]
+      },
+      {
+        "area": "Energy",
+        "categorias": [
+          "Energy Engineering and Power Technology",
+          "Energy (miscellaneous)"
+        ]
+      }
+    ],
+    "publisher": "Society of Petroleum Engineers (SPE)",
+    "issn": [
+      "1086055X"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=15300154827&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=15300154827\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "SPEKTRUM DER AUGENHEILKUNDE": {
+    "id": "59",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://www.springer.com/journal/717",
+    "h_index": "10",
+    "area_categoria": [
+      {
+        "area": "Medicine",
+        "categorias": [
+          "Ophthalmology"
+        ]
+      }
+    ],
+    "publisher": "Springer Medizin",
+    "issn": [
+      "09304282",
+      "16137523"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=15129&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=15129\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "STUDI PIEMONTESI": {
+    "id": "60",
+    "areas": [
+      "HUMAN_Y_ART",
+      "CIENCIAS_SOC"
+    ],
+    "catalogos": [
+      "SCIELO",
+      "SCOPUS",
+      "MLA"
+    ],
+    "sitio_web": "https://www.studipiemontesi.it/la-rivista-studi-piemontesi/",
+    "h_index": "4",
+    "area_categoria": [
+      {
+        "area": "Arts and Humanities",
+        "categorias": [
+          "History"
+        ]
+      },
+      {
+        "area": "Social Sciences",
+        "categorias": [
+          "Cultural Studies"
+        ]
+      }
+    ],
+    "publisher": "Centro Studi Piemontesi",
+    "issn": [
+      "03927261"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=16000154772&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=16000154772\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "TECNICA PECUARIA EN MEXICO": {
+    "id": "61",
+    "areas": [
+      "CIENCIAS_BIO"
+    ],
+    "catalogos": [
+      "SCOPUS",
+      "JCR"
+    ],
+    "sitio_web": "https://cienciaspecuarias.inifap.gob.mx/index.php/Pecuarias/index",
+    "h_index": "12",
+    "area_categoria": [
+      {
+        "area": "Agricultural and Biological Sciences",
+        "categorias": [
+          "Animal Science and Zoology"
+        ]
+      },
+      {
+        "area": "Veterinary",
+        "categorias": [
+          "Veterinary (miscellaneous)"
+        ]
+      }
+    ],
+    "publisher": "INIFAP-CENID Parasitologia Veterinaria",
+    "issn": [
+      "00401889"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=19200157110&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=19200157110\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "TRANSACTIONS ON ELECTRICAL ENGINEERING, ELECTRONICS, AND COMMUNICATIONS": {
+    "id": "62",
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://ph02.tci-thaijo.org/index.php/ECTI-EEC",
+    "h_index": "14",
+    "area_categoria": [
+      {
+        "area": "Computer Science",
+        "categorias": [
+          "Computer Networks and Communications"
+        ]
+      },
+      {
+        "area": "Engineering",
+        "categorias": [
+          "Electrical and Electronic Engineering"
+        ]
+      }
+    ],
+    "publisher": "Electrical Engineering/Electronics, Computer, Communications and Information Technology Association (ECTI)",
+    "issn": [
+      "16859545"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=20300195016&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=20300195016\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  },
+  "WIRELESS COMMUNICATIONS AND MOBILE COMPUTING": {
+    "id": "63",
+    "areas": [
+      "CIENCIAS_EXA",
+      "ING"
+    ],
+    "catalogos": [
+      "SCOPUS"
+    ],
+    "sitio_web": "https://www.hindawi.com/journals/wcmc/",
+    "h_index": "88",
+    "area_categoria": [
+      {
+        "area": "Computer Science",
+        "categorias": [
+          "Computer Networks and Communications",
+          "Information Systems"
+        ]
+      },
+      {
+        "area": "Engineering",
+        "categorias": [
+          "Electrical and Electronic Engineering"
+        ]
+      }
+    ],
+    "publisher": "Hindawi Limited",
+    "issn": [
+      "15308669",
+      "15308677"
+    ],
+    "publication_type": "Journals",
+    "widget": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=17543&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=17543\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+  }
+}
