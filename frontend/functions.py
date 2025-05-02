@@ -1,5 +1,4 @@
-from journal_json import load_journals
-import os
+from collections import defaultdict
 
 def get_attribute(journals: list, attribute: str) -> list:
     ''' Obtiene valores de un atributo '''
@@ -7,10 +6,12 @@ def get_attribute(journals: list, attribute: str) -> list:
     flattened = [item for val in raw_values for item in (val if isinstance(val, list) else [val])]
     return sorted(set(flattened))
 
-
-dir_json = os.path.join(os.path.dirname(__file__), '..', 'datos', 'json')
-
-journals = load_journals(dir_json)
-
-a = get_attribute(journals, 'catalogs')
-print(a)
+def journals_by_letter(journals: list) -> dict:
+    ''' Agrupa revistas por la primera letra del título '''
+    grouped = defaultdict(list)
+    for j in journals:
+        if j.title:  # Verifica que tenga título
+            first_letter = j.title[0].upper()
+            if first_letter.isalpha():
+                grouped[first_letter].append(j)
+    return grouped
