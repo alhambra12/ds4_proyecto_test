@@ -1,7 +1,7 @@
 import os, argparse
 from flask import Flask, render_template, abort
 from journal_json import create_journal_json, load_journals
-from functions import get_attribute, journals_by_letter
+from functions import get_attribute
 
 app = Flask(__name__)
 
@@ -53,13 +53,12 @@ def catalog_view(catalog):
 
 @app.route('/explorar')
 def explore_view():
-    grouped_journals = journals_by_letter(journals)
-    return render_template('explore.html', grouped_journals=grouped_journals)
+    return render_template('explore.html', selected_letter=None, journals=[])
 
 @app.route('/explorar/<letter>')
 def letter_view(letter):
-    journals_by_letter = [j for j in journals if j.title and j.title[0].upper() == letter.upper()]
-    return render_template('letter.html', letter=letter.upper(), journals=journals_by_letter)
+    filtered = [j for j in journals if j.title.upper().startswith(letter.upper())]
+    return render_template('explore.html', selected_letter=letter.upper(), journals=filtered)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -4,11 +4,28 @@
 
 <h1>Revistas:</h1>
 <p>Selecciona la letra a mostrar</p>
+
 <div>
   {% for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' %}
-    <a href="{{ url_for('letter_view', letter=letter) }}">{{ letter }}</a>
+    {% if letter == selected_letter %}
+      <strong>{{ letter }}</strong>
+    {% else %}
+      <a href="{{ url_for('letter_view', letter=letter) }}">{{ letter }}</a>
+    {% endif %}
     {% if not loop.last %} | {% endif %}
   {% endfor %}
 </div>
+
+{% if selected_letter %}
+  <hr>
+  <h2>Revistas que comienzan con "{{ selected_letter }}"</h2>
+  <ul>
+    {% for journal in journals %}
+      <li><a href="{{ url_for('journal_view', id_journal=journal.id) }}">{{ journal.title }}</a></li>
+    {% else %}
+      <li>No hay revistas con esta letra.</li>
+    {% endfor %}
+  </ul>
+{% endif %}
 
 {% endblock %}
