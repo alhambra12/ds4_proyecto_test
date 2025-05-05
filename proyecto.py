@@ -18,7 +18,7 @@ def start_scrapper():
     subprocess.run([
         sys.executable,
         os.path.join(ruta_base, 'scrapper', 'app.py'),
-        '--dir_json', os.path.join(ruta_base, 'datos', 'json'),
+        '--json_dir_path', os.path.join(ruta_base, 'datos', 'json'),
         '--input', 'revistas.json',
         '--output', 'salida.json'
     ])
