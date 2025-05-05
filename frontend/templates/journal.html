@@ -34,10 +34,10 @@
 
     <h3>Área y Categorías:</h3>
     <ul>
-        {% for area_category in journal.area_category %}
-        <li><strong>{{ area_category.area }}</strong>
+        {% for subjet_area_and_category in journal.subjet_area_and_category %}
+        <li><strong>{{ subjet_area_and_category.area }}</strong>
             <ul>
-                {% for categoria in area_category.categorias %}
+                {% for categoria in subjet_area_and_category.categorias %}
                 <li>{{ categoria }}</li>
                 {% endfor %}
             </ul>
