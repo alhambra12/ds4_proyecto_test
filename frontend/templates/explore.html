@@ -2,30 +2,67 @@
 {% block title %}Journal Database - Búsqueda{% endblock %}
 {% block body %}
 
-<h1>Revistas:</h1>
-<p>Selecciona la letra a mostrar</p>
+<div class="container mt-4">
+    <h1 class="mb-3">Revistas</h1>
+    <p>Selecciona la letra a mostrar:</p>
 
-<div>
-  {% for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' %}
-    {% if letter == selected_letter %}
-      <strong>{{ letter }}</strong>
-    {% else %}
-      <a href="{{ url_for('letter_view', letter=letter) }}">{{ letter }}</a>
+    <div class="mb-4">
+        {% for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' %}
+            {% if letter == selected_letter %}
+                <strong>{{ letter }}</strong>
+            {% else %}
+                <a href="{{ url_for('letter_view', letter=letter) }}">{{ letter }}</a>
+            {% endif %}
+            {% if not loop.last %} | {% endif %}
+        {% endfor %}
+    </div>
+
+    {% if selected_letter %}
+        <hr>
+        <h2 class="mb-4">Revistas que comienzan con "{{ selected_letter }}"</h2>
+
+        {% if journals %}
+        <ul class="list-group">
+            {% for journal in journals %}
+            <li class="list-group-item mb-3">
+                <h5 class="mb-1">
+                    <a href="{{ url_for('journal_view', id_journal=journal.id) }}" class="text-decoration-none text-primary">
+                        {{ journal.title }}
+                    </a>
+                </h5>
+
+                {% if journal.catalogs %}
+                <p class="mb-1">
+                    <strong>Catálogos:</strong>
+                    {% for catalog in journal.catalogs %}
+                        <a href="{{ url_for('catalog_view', catalog=catalog) }}" class="text-decoration-none">
+                            {{ catalog }}
+                        </a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                </p>
+                {% endif %}
+
+                {% if journal.areas %}
+                <p class="mb-1">
+                    <strong>Áreas:</strong>
+                    {% for area in journal.areas %}
+                        <a href="{{ url_for('area_view', area=area) }}" class="text-decoration-none">
+                            {{ area }}
+                        </a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                </p>
+                {% endif %}
+
+                {% if journal.h_index %}
+                <p class="mb-0"><strong>H-index:</strong> {{ journal.h_index }}</p>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p>No hay revistas con esta letra.</p>
+        {% endif %}
     {% endif %}
-    {% if not loop.last %} | {% endif %}
-  {% endfor %}
 </div>
-
-{% if selected_letter %}
-  <hr>
-  <h2>Revistas que comienzan con "{{ selected_letter }}"</h2>
-  <ul>
-    {% for journal in journals %}
-      <li><a href="{{ url_for('journal_view', id_journal=journal.id) }}">{{ journal.title }}</a></li>
-    {% else %}
-      <li>No hay revistas con esta letra.</li>
-    {% endfor %}
-  </ul>
-{% endif %}
 
 {% endblock %}

@@ -27,3 +27,12 @@ h1, h2, h3, h4, h5, h6 {
 .limited-width {
     max-width: 600px;
 }
+
+.card-area {
+    background-color: var(--color-orange);
+    color: white;
+    transition: transform 0.2s;
+}
+.card-area:hover {
+    transform: translateY(-5px);
+}

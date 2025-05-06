@@ -2,13 +2,25 @@
 {% block title %}Journal Database - {{ area }}{% endblock %}
 {% block body %}
 
-<h1>Revistas en el área: {{ area }}</h1>
-<ul>
-  {% for journal in journals %}
-    <li>
-      <a href="/revista/{{ journal.id }}">{{ journal.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<div class="container mt-4">
+    <h1 class="mb-4">Revistas en el área: {{ area }}</h1>
+    
+    <ul class="list-group">
+        {% for journal in journals %}
+        <li class="list-group-item mb-3">
+            <h5 class="mb-1">
+                <a href="/revista/{{ journal.id }}" class="text-decoration-none text-primary">
+                    {{ journal.title }}
+                </a>
+            </h5>
+
+            {% if journal.h_index %}
+            <p class="mb-1"><strong>H-index:</strong> {{ journal.h_index }}</p>
+            {% endif %}
+
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 
 {% endblock %}
