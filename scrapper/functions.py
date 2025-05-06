@@ -63,7 +63,7 @@ def get_data(soup: BeautifulSoup, heading_text:str, html_tag:str, class_=None) -
         return text.text.strip() if text else None
     return None
 
-def get_subject_area_category(soup: BeautifulSoup) -> list:
+def get_subject_area_and_category(soup: BeautifulSoup) -> list:
     ''' Función que obtiene el area y categorias '''
     result = {}
     heading = soup.find('h2', string='Subject Area and Category')
@@ -117,7 +117,7 @@ def get_journal_data(url:str) -> dict:
     data = {
         'website': get_website(soup),
         'h_index': get_data(soup, 'H-Index', 'p', 'hindexnumber'),
-        'subjet_area_and_category': get_subject_area_category(soup),
+        'subjet_area_and_category': get_subject_area_and_category(soup),
         'publisher': get_data(soup, 'Publisher', 'a'),
         'issn': get_issn(soup),
         'publication_type': get_data(soup, 'Publication type', 'p'),

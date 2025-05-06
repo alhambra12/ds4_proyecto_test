@@ -1,7 +1,6 @@
 import os, argparse
 from flask import Flask, render_template, abort
-from journal_json import create_journal_json, load_journals
-from functions import get_attribute
+from functions import get_attribute, create_journal_json, load_journals
 
 app = Flask(__name__)
 
