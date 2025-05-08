@@ -1,6 +1,6 @@
 import os, argparse
-from flask import Flask, render_template, abort
-from functions import get_attribute, create_journal_json, load_journals
+from flask import Flask, render_template, abort, request
+from functions import get_attribute, create_journal_json, load_journals, get_authors
 
 app = Flask(__name__)
 
@@ -23,7 +23,7 @@ def index():
     return render_template('index.html')
 
 @app.route('/revista/<id_journal>')
-def journal_view(id_journal):
+def journal(id_journal):
     ''' Página de detalles de la revista '''
     journal = next((j for j in journals if j.id == id_journal), None)
     if not journal:
@@ -31,33 +31,46 @@ def journal_view(id_journal):
     return render_template('journal.html', journal=journal.to_dict())
 
 @app.route('/areas')
-def areas_view():
+def areas():
     areas = get_attribute(journals, 'areas')
     return render_template('areas.html', areas=areas)
 
-@app.route('/areas/<area>')
-def area_view(area):
+@app.route('/area/<area>')
+def area(area):
     journals_by_area = [j for j in journals if area in j.areas]
     return render_template('area.html', area=area, journals=journals_by_area)
 
 @app.route('/catalogos')
-def catalogs_view():
+def catalogs():
     catalogs = get_attribute(journals, 'catalogs')
     return render_template('catalogs.html', catalogs=catalogs)
 
-@app.route('/catalogos/<catalog>')
-def catalog_view(catalog):
+@app.route('/catalogo/<catalog>')
+def catalog(catalog):
     journals_by_catalog = [j for j in journals if catalog in j.catalogs]
     return render_template('catalog.html', catalog=catalog, journals=journals_by_catalog)
 
 @app.route('/explorar')
-def explore_view():
+def explore():
     return render_template('explore.html', selected_letter=None, journals=[])
 
 @app.route('/explorar/<letter>')
-def letter_view(letter):
+def letter(letter):
     filtered = [j for j in journals if j.title.upper().startswith(letter.upper())]
     return render_template('explore.html', selected_letter=letter.upper(), journals=filtered)
+
+@app.route('/busqueda', methods=['GET', 'POST'])
+def search():
+    if request.method == 'POST':
+        texto = request.form['titulo'].lower()
+        revistas_filtradas = [j for j in journals if texto in j.title.lower()]
+        return render_template('search.html', revistas=revistas_filtradas)
+    return render_template('search.html')
+
+@app.route('/creditos')
+def credits():
+    authors = get_authors()
+    return render_template('credits.html', authors=authors)
 
 if __name__ == '__main__':
     app.run(debug=True)

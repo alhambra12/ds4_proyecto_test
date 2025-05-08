@@ -11,7 +11,7 @@
             {% if letter == selected_letter %}
                 <strong>{{ letter }}</strong>
             {% else %}
-                <a href="{{ url_for('letter_view', letter=letter) }}">{{ letter }}</a>
+                <a href="/explorar/{{ letter }}">{{ letter }}</a>
             {% endif %}
             {% if not loop.last %} | {% endif %}
         {% endfor %}
@@ -26,7 +26,7 @@
             {% for journal in journals %}
             <li class="list-group-item mb-3">
                 <h5 class="mb-1">
-                    <a href="{{ url_for('journal_view', id_journal=journal.id) }}" class="text-decoration-none text-primary">
+                    <a href="/revista/{{ journal.id }}" class="text-decoration-none text-primary">
                         {{ journal.title }}
                     </a>
                 </h5>
@@ -35,7 +35,7 @@
                 <p class="mb-1">
                     <strong>Catálogos:</strong>
                     {% for catalog in journal.catalogs %}
-                        <a href="{{ url_for('catalog_view', catalog=catalog) }}" class="text-decoration-none">
+                        <a href="/catalogo/{{ catalog }}" class="text-decoration-none">
                             {{ catalog }}
                         </a>{% if not loop.last %}, {% endif %}
                     {% endfor %}
@@ -46,7 +46,7 @@
                 <p class="mb-1">
                     <strong>Áreas:</strong>
                     {% for area in journal.areas %}
-                        <a href="{{ url_for('area_view', area=area) }}" class="text-decoration-none">
+                        <a href="/area/{{ area }}" class="text-decoration-none">
                             {{ area }}
                         </a>{% if not loop.last %}, {% endif %}
                     {% endfor %}

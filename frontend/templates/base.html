@@ -33,10 +33,10 @@
                         <a class="nav-link {% if request.path == '/' %}active fw-bold{% endif %}" href="/">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {% if request.path.startswith('/areas') %}active fw-bold{% endif %}" href="/areas">Áreas</a>
+                        <a class="nav-link {% if request.path.startswith('/areas') or request.path.startswith('/area')%}active fw-bold{% endif %}" href="/areas">Áreas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {% if request.path.startswith('/catalogos') %}active fw-bold{% endif %}" href="/catalogos">Catálogos</a>
+                        <a class="nav-link {% if request.path.startswith('/catalogos') or request.path.startswith('/catalogo') %}active fw-bold{% endif %}" href="/catalogos">Catálogos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {% if request.path.startswith('/explorar') %}active fw-bold{% endif %}" href="/explorar">Explorar</a>

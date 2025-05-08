@@ -72,3 +72,10 @@ def load_journals(path: str) -> list:
         journals.append(journal)
 
     return journals
+
+def get_authors():
+    return [
+        'Pedro Alan Escobedo Salazar',
+        'Alejandro Leyva',
+        'Alex Pacheco'
+        ]

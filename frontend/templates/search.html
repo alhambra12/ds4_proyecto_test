@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Journal Database - Búsqueda por Título{% endblock %}
+{% block body %}
+
+<div class="container mt-5">
+    <h1 class="mb-3">Journal Database</h1>
+    <h2 class="mb-4">Búsqueda por título</h2>
+    <p class="mb-3">Busca una o más palabras en el título de la revista</p>
+
+    <form action="{{ url_for('search') }}" method="post" class="mb-5">
+        <div class="mb-3">
+            <label for="titulo" class="form-label">Título:</label>
+            <input type="text" name="titulo" id="titulo" class="form-control" placeholder="Ejemplo: Nature">
+        </div>
+        <button type="submit" class="btn btn-primary">Buscar</button>
+    </form>
+
+    {% if revistas is defined %}
+    <h4 class="mb-3">Resultados:</h4>
+    {% if revistas %}
+    <ul class="list-group mb-5">
+        {% for revista in revistas %}
+        <li class="list-group-item">
+            <h5 class="mb-1">
+                <a href="{{ url_for('journal', id_journal=journal.id) }}" class="text-decoration-none text-primary">
+                    {{ revista.title }}
+                </a>
+            </h5>
+            {% if revista.h_index %}
+            <p class="mb-0"><strong>H-index:</strong> {{ revista.h_index }}</p>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <div class="alert alert-warning">No se encontraron revistas con ese título.</div>
+    {% endif %}
+    {% endif %}
+</div>
+{% endblock %}
